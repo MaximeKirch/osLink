@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import Body from './components/Body'
 import './App.css';
+import HeroBanner from'./components/HeroBanner'
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         
       </header>
 
+      <HeroBanner />
       <Body />
+      
     </div>
   );
 }
