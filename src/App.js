@@ -1,4 +1,5 @@
 import Nav from './components/Nav'
+import Body from './components/Body'
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
         <Nav />
         
       </header>
+
+      <Body />
     </div>
   );
 }

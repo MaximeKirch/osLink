@@ -6,8 +6,8 @@ DATE
 
 	- Composant Nav (1h)
 
-	- Init CSS file (0.1h)
-	
+	- Init CSS file (0.2h)
+
 
 
 ---------------------------------------------------

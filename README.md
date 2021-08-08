@@ -10,6 +10,7 @@ Application web de mise en commun de projets Open Source entre développeurs et 
 ---------------------------------------------
   - Ajout d'un compteur d'heures pour tarification en fin de projet (heures.txt)
   - Composant Nav + Init CSS 
+  - Proposition != fonts
 
 
 07/08/2021

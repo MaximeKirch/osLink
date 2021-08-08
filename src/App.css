@@ -1,8 +1,9 @@
 /* INDEX OF CSS FILE */ 
 
 /* 1. Nav Component */
-/* 2.               */
+/* 2. Body Component */
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&family=Zilla+Slab:ital,wght@0,400;0,700;1,300&display=swap');
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -18,8 +19,13 @@
   background-color: rgba(51,51,51,0.9);
 }
 
-.navMenu {
-  
+
+
+.title {
+  font-family: 'Zilla Slab';
+  font-weight: 400;
+  font-size: 32px;
+  color: #fefefe;
 }
 
 a {
@@ -68,6 +74,44 @@ a {
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/*2. */
+/*2. Body Component */
+
+.Body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  height: auto;
+  width: auto;
+}
+
+#Font1 {
+  width: 80%;
+  font-family:'Zilla Slab';
+  font-weight: 700;
+}
 
 
+#Font2 {
+  width: 80%;
+  font-family:'Zilla Slab';
+  font-weight: 400;
+}
+
+#Font3 {
+  width: 80%;
+  font-family: 'Ubuntu';
+  font-weight: 300
+}
+
+#Font4 {
+  width: 80%;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+}
+
+#Font5 {
+  width: 80%;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+}
