@@ -4,16 +4,21 @@ import '../App.css'
 
 function Nav() {
     return(
-        <div className='Nav'>
-        <div className="navMenu">
-            <img id="logo" src={logo} alt='navLogo' />
-        </div>
+        <>
+
+        <div className='navBar'>
+            <div className="navMenu">
+                <img id="logo" src={logo} alt='navLogo' />
+            </div>
 
         <div classname="submit">
-            <button id="submitBtn">Submit project</button>
+            <button id="submitBtn"><a href='#'>Submit project</a></button>
 
         </div>
+        
         </div>
+
+        </>
     )
 }
 

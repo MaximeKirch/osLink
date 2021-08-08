@@ -8,23 +8,29 @@
 
 /* 1. Nav Component */
 
-.Nav {
+.navBar {
   display: flex;
   flex-direction: row;
-  height: auto;
+  height: 60px;
   width: auto;
-  display: inline;
-  justify-content: space-around;
-  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(51,51,51,0.9);
 }
 
 .navMenu {
-  background: red;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
 }
 
 #logo{
   height: 50px;
   width: 50px;
+  margin-left: 10px;
 }
 
 
@@ -38,4 +44,30 @@
   width: 150px;
   font-size: 18px;
   border:none;
+  margin-right: 20px;
+  transition: transform 500ms ease-in-out-back;
+   background-position : 800ms ease-in-out-bac; 
+   box-shadow: 500ms linear;
+  background-size: contain;
+  background-position: -200px center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+  #submitBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  #submitBtn:active{
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/*2. */
+
+
