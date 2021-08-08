@@ -1,0 +1,11 @@
+DATE 
+	- Tâche (temps en heures)
+
+
+---------------------------------------------------
+
+07/08/2021
+
+	- Conception du Wireframe(1h)
+	
+	- Etude UI/UX(2h)
