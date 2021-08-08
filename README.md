@@ -2,7 +2,7 @@
 
 !!!!!! Please use Dev branch to develop & suggest modifications before merge !!!!!!
 
-!!!!!! Veuillez utiliser la branche dev pour développer et suggérer des modifications avant la fusion !!!!!!
+!!!!!! Veuillez utiliser la branche Dev pour développer et suggérer des modifications avant la fusion !!!!!!
 
 Application web de mise en commun de projets Open Source entre développeurs et clients.
 
