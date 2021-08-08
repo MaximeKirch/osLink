@@ -4,6 +4,8 @@ DATE
 --------------------------------------------------
 08/08/2021
 
+	- Composants Hero Banner + Body (1h)
+
 	- Composant Nav (1h)
 
 	- Init CSS file (0.2h)
