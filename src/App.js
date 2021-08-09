@@ -1,4 +1,5 @@
 import Nav from './components/Nav'
+import ContactForm from './components/ContactForm'
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="appHeader">
         <Nav />
+        <ContactForm />
         
       </header>
     </div>
