@@ -2,6 +2,11 @@ DATE
 	- Tâche (temps en heures)
 
 --------------------------------------------------
+09/08/2021
+
+- Création du composant ContactForm + CSS du formulaire + tests (2.5h)
+
+--------------------------------------------------
 08/08/2021
 
 	- Composants Hero Banner + Body (1h)
