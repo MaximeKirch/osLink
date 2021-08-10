@@ -215,7 +215,7 @@ a {
   border-radius: 10px;
 }
 
-h2 {
+.contact-form h2 {
   margin-top: 35px;
   text-align: center;
   color: var(--illuminating);
@@ -227,8 +227,7 @@ h2 {
   grid-template-rows: repeat(4, 1fr) 100px;
 }
 
-input,
-textarea {
+input , .contact-form textarea {
   border: none;
   background: none;
   font-size: 1.1rem;
@@ -236,6 +235,16 @@ textarea {
   border-bottom: 1px solid var(--illuminating);
   width: 80%;
 }
+
+.contact-form textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
 
 input::placeholder, 
 textarea::placeholder {
@@ -258,6 +267,7 @@ input {
   right: 0;
   transform-origin: 50% 50%;
 }
+
 @keyframes dongle {
   0% {
     transform: translate(0px, 0px);
