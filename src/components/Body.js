@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css'
 import Twitter from '../components/Twitter'
+import Service from './Services';
 
 
 function Body() {
 
     return(
 <div className='bodyContainer'>
-        <h2> Vous retrouverez ici un essai de fonts :</h2>
+        <h2 className='bodyTitle'> Vous retrouverez ici un essai de fonts :</h2>
     <div className="Body">
 
         <div className='Content'>
@@ -57,7 +58,7 @@ function Body() {
     </div>
 
     
-
+        <Service />
     
 
     

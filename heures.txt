@@ -5,6 +5,7 @@ DATE
 10/08/2021
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)
+- Services component (1h)
 
 --------------------------------------------------
 

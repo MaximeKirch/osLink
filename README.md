@@ -10,6 +10,8 @@ Application web de mise en commun de projets Open Source entre développeurs et 
 ---------------------------------------------
   - Projet identité visuelle
   - Ajout flux TwitterOSS
+  - Services Component
+  - Changement hero banner
   
 
 08/08/2021 

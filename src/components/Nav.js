@@ -8,8 +8,10 @@ function Nav() {
 
         <div className='navBar'>
             <div className="navMenu">
+            
                 <img id="logo" src={logo} alt='navLogo' />
-                <h1 className='title'>OS Link</h1>
+                <h1 id='title'><a href="#">OS Link</a></h1>
+            
                 
             </div>
 
