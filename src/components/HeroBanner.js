@@ -12,7 +12,6 @@ function HeroBanner() {
 
         </div>
 
-        <hr id="separate"></hr>
 
 </>
     )

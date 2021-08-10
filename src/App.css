@@ -3,8 +3,19 @@
 /* 1. Nav Component */
 /* 2. Body Component */
 /* 3. HeroBanner Component */
+/* 4. Twitter Timeline */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --primary-font: "font-1", sans-serif;
+  --secondary-font: "font-2", serif;
+  
+  --primary-color: #F8D948;
+  --secondary-color: #959A9C;
+  --third-color: #faf6d3;
+}
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -17,7 +28,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(51,51,51,0.9);
+  background-color: rgba(30,30,30,0.9);
 }
 
 .navMenu {
@@ -29,21 +40,24 @@
 
 .title {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
-  color: #fefefe;
+  color: var(--secondary-color);
+  
 }
 
 a {
   text-decoration: none;
-  color: #fefefe;
+  color: var(--secondary-color);
 }
+
+
 
 #logo{
   height: 50px;
   width: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 15px;
 }
 
@@ -53,8 +67,8 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #E37D05;
-  color: #fefefe;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   height: 35px;
   width: 150px;
   font-size: 18px;
@@ -72,6 +86,7 @@ a {
   #submitBtn:hover{
     cursor: pointer;
     transform: scale(1.1);
+    opacity: 0.8;
     background-position: -60px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
@@ -85,44 +100,66 @@ a {
 
 /*2. Body Component */
 
+.bodyContainer {
+  width: auto;
+  
+
+}
+
 .Body {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   height: auto;
   width: auto;
 }
 
+.Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 #Font1 {
   width: 80%;
-  font-family:'Zilla Slab';
+  font-family:'Arvo';
   font-weight: 700;
+  color:var(--third-color);
 }
 
 
 #Font2 {
   width: 80%;
-  font-family:'Zilla Slab';
+  font-family:'Arvo';
   font-weight: 400;
+  color:var(--secondary-color);
 }
 
 #Font3 {
   width: 80%;
-  font-family: 'Ubuntu';
-  font-weight: 300
+  font-family: 'Leto';
+  font-weight: 300;
+  color: var(--primary-color);
 }
 
 #Font4 {
   width: 80%;
-  font-family: 'Ubuntu';
+  font-family: 'Leto';
   font-weight: 400;
 }
 
 #Font5 {
   width: 80%;
-  font-family: 'Ubuntu';
+  font-family: 'Leto';
   font-weight: 700;
+}
+
+.bodyHr {
+  width: 90%;
+  height: 0.3px;
+  background: rgba(0,0,0,0.9);
 }
 
 
@@ -139,8 +176,8 @@ a {
 #hero {
   position: relative;
   width: 100%;
-  max-width: 1920px;
-  max-height: 1080px;
+  max-width: auto;
+  max-height: auto;
   height: auto;
   z-index: -1;
 }
@@ -149,7 +186,7 @@ a {
   position: absolute;
   justify-items: start;
   z-index: 1;
-  color: #fefefe;
+  color: var(--third-color);
   font-size: 76px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -275,4 +312,16 @@ input {
   transition: 0.2s ease;
   color: var(--secondary-color);
   border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 5. Twitter Timeline */
+
+.Twitter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 20px;
+  
 }
