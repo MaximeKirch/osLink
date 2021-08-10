@@ -2,11 +2,18 @@ DATE
 	- Tâche (temps en heures)
 
 --------------------------------------------------
+10/08/2021
+- Identité visuelle (1h)
+- Flux Twitter (0.5h)
+
+--------------------------------------------------
+
 09/08/2021
 
 - Création du composant ContactForm + CSS du formulaire + tests (2.5h)
 
 --------------------------------------------------
+
 08/08/2021
 
 	- Composants Hero Banner + Body (1h)

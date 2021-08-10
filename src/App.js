@@ -3,6 +3,8 @@ import Body from './components/Body'
 import './App.css';
 import HeroBanner from'./components/HeroBanner'
 import ContactForm from './components/ContactForm'
+import Twitter from './components/Twitter'
+
 
 function App() {
   return (

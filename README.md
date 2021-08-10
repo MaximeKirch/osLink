@@ -6,6 +6,12 @@
 
 Application web de mise en commun de projets Open Source entre développeurs et clients.
 
+10/08/2021
+---------------------------------------------
+  - Projet identité visuelle
+  - Ajout flux TwitterOSS
+  
+
 08/08/2021 
 ---------------------------------------------
   - Ajout d'un compteur d'heures pour tarification en fin de projet (heures.txt)
