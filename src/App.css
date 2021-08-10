@@ -3,7 +3,10 @@
 /* 1. Nav Component */
 /* 2. Body Component */
 /* 3. HeroBanner Component */
-/* 4. Twitter Timeline */
+/* 4. ContactForm */
+/* 5. Twitter Timeline */
+/* 6. NousDev Component*/
+/* Z.Footer */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
@@ -327,4 +330,53 @@ input {
   align-content: center;
   margin-right: 20px;
   
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 6. NousDev Component*/
+.nousDevContainer {
+  width: auto;
+  
+}
+
+.nousDev {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pNousDev {
+text-align: justify;
+width: 80%;
+font-family:'Arvo';
+font-weight: 400;
+color:var(--ultimate-Gray);
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Z.Footer */
+.footerContainer{
+  display :flex;
+  justify-content: center;
+}
+
+.footerRow{
+  display :flex;
+  justify-content: space-around ;  
+}
+
+.footerMain{
+  color: var(--ultimate-Gray);
+  background-color: rgba(30,30,30,0.9);
+  width: 100%;
+}
+
+.footerNoRow{
+  justify-content: center;
+}
+
+.lastFooter{
+  text-align: center;
 }
