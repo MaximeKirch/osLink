@@ -12,9 +12,12 @@
   --primary-font: "font-1", sans-serif;
   --secondary-font: "font-2", serif;
   
-  --primary-color: #F8D948;
-  --secondary-color: #959A9C;
-  --third-color: #faf6d3;
+  --illuminating: rgb(245,223,77); /*#F5DF4D*/
+  --ultimate-Gray: rgb(147,149,151); /*#939597*/
+  --lead-Crystal: rgb(194,191,181); /*#C2BFB5*/
+  --lavender:rgb(175,164,206); /*AFA4CE*/
+  --prism-Pink:rgba(240,161,191); /*F0A1BF*/
+  --placid-Blue:rgb(140,172,211); /*#8CACD3*/
 }
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -42,13 +45,13 @@
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 32px;
-  color: var(--secondary-color);
+  color: var(--ultimate-Gray);
   
 }
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--ultimate-Gray);
 }
 
 
@@ -67,8 +70,8 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--illuminating);
+  color: var(--ultimate-Gray);
   height: 35px;
   width: 150px;
   font-size: 18px;
@@ -126,7 +129,7 @@ a {
   width: 80%;
   font-family:'Arvo';
   font-weight: 700;
-  color:var(--third-color);
+  color:var(--lead-Crystal);
 }
 
 
@@ -134,14 +137,14 @@ a {
   width: 80%;
   font-family:'Arvo';
   font-weight: 400;
-  color:var(--secondary-color);
+  color:var(--ultimate-Gray);
 }
 
 #Font3 {
   width: 80%;
   font-family: 'Leto';
   font-weight: 300;
-  color: var(--primary-color);
+  color: var(--illuminating);
 }
 
 #Font4 {
@@ -186,7 +189,7 @@ a {
   position: absolute;
   justify-items: start;
   z-index: 1;
-  color: var(--third-color);
+  color: var(--lead-Crystal);
   font-size: 76px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -204,15 +207,15 @@ a {
 .contact-form {
   margin: 10px;
   max-width: 30%;
-  background: var(--secondary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--ultimate-Gray);
+  border: 1px solid var(--illuminating);
   border-radius: 10px;
 }
 
 h2 {
   margin-top: 35px;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--illuminating);
 }
 
 
@@ -226,14 +229,14 @@ textarea {
   border: none;
   background: none;
   font-size: 1.1rem;
-  color: var(--primary-color);
-  border-bottom: 1px solid var(--primary-color);
+  color: var(--illuminating);
+  border-bottom: 1px solid var(--illuminating);
   width: 80%;
 }
 
 input::placeholder, 
 textarea::placeholder {
- color: var(--third-color);
+ color: var(--lead-Crystal);
 }
 
 
@@ -291,7 +294,7 @@ input {
 .button {
   font-size: 1.3rem;
   margin-top: 15px;
-  color: var(--primary-color);
+  color: var(--illuminating);
   border: none;
   cursor: pointer;
   transition: .2s;
@@ -310,7 +313,7 @@ input {
   padding: 12px;
   opacity: 0;
   transition: 0.2s ease;
-  color: var(--secondary-color);
+  color: var(--ultimate-Gray);
   border-radius: 5px;
 }
 
