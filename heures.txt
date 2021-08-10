@@ -2,9 +2,27 @@ DATE
 	- Tâche (temps en heures)
 
 --------------------------------------------------
+10/08/2021
+- Recherche code couleur (0.3h)
+
+Total heures : 0.3
+Cumul heures : 11	
+
+--------------------------------------------------
+10/08/2021
+- Meeting
+
+Total heures : 1x3=3
+Cumul heures : 10.7
+
+
+--------------------------------------------------
 09/08/2021
 
 - Création du composant ContactForm + CSS du formulaire + tests (2.5h)
+
+Total heures : 2.5
+Cumul heures :7.7
 
 --------------------------------------------------
 08/08/2021
@@ -15,6 +33,9 @@ DATE
 
 	- Init CSS file (0.2h)
 
+	Total heures : 2.2
+	Cumul heures : 5.2
+
 
 
 ---------------------------------------------------
@@ -24,3 +45,5 @@ DATE
 	- Conception du Wireframe(1h)
 	
 	- Etude UI/UX(2h)
+
+	Total heures : 1x3=3
