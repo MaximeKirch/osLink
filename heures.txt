@@ -2,6 +2,16 @@ DATE
 	- Tâche (temps en heures)
 
 --------------------------------------------------
+11/08/2021
+
+-Services component(1h)
+-Testimonials component(0.5h)
+-Fix bugs & merge (0.2h)
+
+Total : 1.7h
+Cumul : 16.2h
+
+--------------------------------------------------
 10/08/2021
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)

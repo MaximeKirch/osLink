@@ -3,6 +3,7 @@ import '../App.css'
 import Twitter from '../components/Twitter'
 import Service from './Services'
 import NousDev from './NousDev'
+import Testimonials from './Testimonials'
 
 
 function Body() {
@@ -65,6 +66,8 @@ function Body() {
 
     
         <Service />
+
+        <Testimonials />
     
 
     

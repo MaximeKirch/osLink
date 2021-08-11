@@ -6,6 +6,12 @@
 
 Application web de mise en commun de projets Open Source entre développeurs et clients.
 
+11/08/2021
+---------------------------------------------
+  - Testimonials component
+  - Services component 
+  - Fix bugs & merge 
+
 10/08/2021
 ---------------------------------------------
   - Projet identité visuelle
