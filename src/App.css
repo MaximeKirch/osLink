@@ -3,9 +3,16 @@
 /* 1. Nav Component */
 /* 2. Body Component */
 /* 3. HeroBanner Component */
+<<<<<<< HEAD
 /* 4. Form Contact */
 /* 5. Twitter Timeline */
 /* 6. Services Component */
+=======
+/* 4. ContactForm */
+/* 5. Twitter Timeline */
+/* 6. NousDev Component*/
+/* Z.Footer */
+>>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
@@ -14,9 +21,12 @@
   --primary-font: "Arvo", serif;
   --secondary-font: "Lato", sans-serif;
   
-  --primary-color: #F8D948;
-  --secondary-color: #959A9C;
-  --third-color: #faf6d3;
+  --illuminating: rgb(245,223,77); /*#F5DF4D*/
+  --ultimate-Gray: rgb(147,149,151); /*#939597*/
+  --lead-Crystal: rgb(194,191,181); /*#C2BFB5*/
+  --lavender:rgb(175,164,206); /*AFA4CE*/
+  --prism-Pink:rgba(240,161,191); /*F0A1BF*/
+  --placid-Blue:rgb(140,172,211); /*#8CACD3*/
 }
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -44,12 +54,17 @@
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 32px;
+<<<<<<< HEAD
   color: var(--secondary-color);
+=======
+  color: var(--ultimate-Gray);
+  
+>>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 }
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--ultimate-Gray);
 }
 
 
@@ -68,8 +83,8 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--illuminating);
+  color: var(--ultimate-Gray);
   height: 35px;
   width: 150px;
   font-size: 18px;
@@ -134,7 +149,7 @@ a {
   width: 80%;
   font-family:'Arvo';
   font-weight: 700;
-  color:var(--third-color);
+  color:var(--lead-Crystal);
 }
 
 
@@ -142,14 +157,14 @@ a {
   width: 80%;
   font-family:'Arvo';
   font-weight: 400;
-  color:var(--secondary-color);
+  color:var(--ultimate-Gray);
 }
 
 #Font3 {
   width: 80%;
   font-family: 'Leto';
   font-weight: 300;
-  color: var(--primary-color);
+  color: var(--illuminating);
 }
 
 #Font4 {
@@ -194,7 +209,7 @@ a {
   position: absolute;
   justify-items: start;
   z-index: 1;
-  color: var(--third-color);
+  color: var(--lead-Crystal);
   font-size: 76px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -212,15 +227,15 @@ a {
 .contact-form {
   margin: 10px;
   max-width: 30%;
-  background: var(--secondary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--ultimate-Gray);
+  border: 1px solid var(--illuminating);
   border-radius: 10px;
 }
 
-h2 {
+.contact-form h2 {
   margin-top: 35px;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--illuminating);
 }
 
 
@@ -229,19 +244,28 @@ h2 {
   grid-template-rows: repeat(4, 1fr) 100px;
 }
 
-input,
-textarea {
+input , .contact-form textarea {
   border: none;
   background: none;
   font-size: 1.1rem;
-  color: var(--primary-color);
-  border-bottom: 1px solid var(--primary-color);
+  color: var(--illuminating);
+  border-bottom: 1px solid var(--illuminating);
   width: 80%;
 }
 
+.contact-form textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
 input::placeholder, 
 textarea::placeholder {
- color: var(--third-color);
+ color: var(--lead-Crystal);
 }
 
 
@@ -260,6 +284,7 @@ input {
   right: 0;
   transform-origin: 50% 50%;
 }
+
 @keyframes dongle {
   0% {
     transform: translate(0px, 0px);
@@ -299,7 +324,7 @@ input {
 .button {
   font-size: 1.3rem;
   margin-top: 15px;
-  color: var(--primary-color);
+  color: var(--illuminating);
   border: none;
   cursor: pointer;
   transition: .2s;
@@ -318,7 +343,7 @@ input {
   padding: 12px;
   opacity: 0;
   transition: 0.2s ease;
-  color: var(--secondary-color);
+  color: var(--ultimate-Gray);
   border-radius: 5px;
 }
 
@@ -336,14 +361,20 @@ input {
 
 /* -------------------------------------------------------------------------------------------------- */
 
+<<<<<<< HEAD
 /* 6. Services Component */ 
 
 .serviceContainer {
   display: flex;
+=======
+/* 6. NousDev Component*/
+.nousDevContainer {
+>>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
   width: auto;
   
 }
 
+<<<<<<< HEAD
 .serviceContainer p {
   color: var(--third-color);
   font-family: var(--secondary-font);
@@ -400,3 +431,45 @@ input {
 
 }
 
+=======
+.nousDev {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pNousDev {
+text-align: justify;
+width: 80%;
+font-family:'Arvo';
+font-weight: 400;
+color:var(--ultimate-Gray);
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Z.Footer */
+.footerContainer{
+  display :flex;
+  justify-content: center;
+}
+
+.footerRow{
+  display :flex;
+  justify-content: space-around ;  
+}
+
+.footerMain{
+  color: var(--ultimate-Gray);
+  background-color: rgba(30,30,30,0.9);
+  width: 100%;
+}
+
+.footerNoRow{
+  justify-content: center;
+}
+
+.lastFooter{
+  text-align: center;
+}
+>>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff

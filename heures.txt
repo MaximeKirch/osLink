@@ -3,15 +3,34 @@ DATE
 
 --------------------------------------------------
 10/08/2021
+<<<<<<< HEAD
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)
 - Services component (1h)
+=======
+- Recherche code couleur (0.3h)
+
+Total heures : 0.3
+Cumul heures : 11	
+
+
+>>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 
 --------------------------------------------------
+10/08/2021
+- Meeting
 
+Total heures : 1x3=3
+Cumul heures : 10.7
+
+
+--------------------------------------------------
 09/08/2021
 
 - Création du composant ContactForm + CSS du formulaire + tests (2.5h)
+
+Total heures : 2.5
+Cumul heures :7.7
 
 --------------------------------------------------
 
@@ -23,6 +42,9 @@ DATE
 
 	- Init CSS file (0.2h)
 
+	Total heures : 2.2
+	Cumul heures : 5.2
+
 
 
 ---------------------------------------------------
@@ -32,3 +54,5 @@ DATE
 	- Conception du Wireframe(1h)
 	
 	- Etude UI/UX(2h)
+
+	Total heures : 1x3=3
