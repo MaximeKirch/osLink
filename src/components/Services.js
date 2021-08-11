@@ -1,7 +1,11 @@
 import React from 'react';
 import iphone from '../assets/iphone.png'
-import html from '../assets/html.png'
-import fonts from '../assets/fonts.png';
+import settings from '../assets/settings.png'
+import cobweb from '../assets/cobweb.png'
+import man from '../assets/man.png'
+import layers from '../assets/layers.png'
+import video from '../assets/video.png'
+import comps from '../assets/comps.png'
 import '../App.css'
 
 function Service() {
@@ -19,32 +23,32 @@ function Service() {
                     <div className="serviceIcons">
 
                         <div className='icons'>
-                            { <img id="html" src={fonts} /> }
+                            { <img className='serviceImg' src={cobweb} /> }
                             <p>HTML 5, CSS3, JS11</p>
                         </div>
 
                         <div className='icons'>
-                            { <img id='fonts'  src={fonts} /> }
+                            { <img className='serviceImg'  src={settings} /> }
                             <p>Free Google Fonts</p>
                         </div>
 
                         <div className='icons'>
-                            { <img id='fonts'  src={fonts} /> }
+                            { <img className='serviceImg' src={video} /> }
                             <p>Ready To Present</p>
                         </div>
 
                         <div className='icons'>
-                            { <img id='fonts'  src={fonts} /> }
+                            { <img className='serviceImg'  src={layers} /> }
                             <p>Crops and Layers</p>
                         </div>
 
                         <div className='icons'>
-                            { <img id='fonts'  src={fonts} /> }
-                            <p>Powerful Components</p>
+                            { <img className='serviceImg'  src={comps} /> }
+                            <p id='powerful'>Powerful Components</p>
                         </div>
 
                         <div className='icons'>
-                            { <img id='fonts'  src={fonts} /> }
+                            { <img className='serviceImg'  src={man} /> }
                             <p>Frameworks friendly</p>
                         </div>
                     </div>
