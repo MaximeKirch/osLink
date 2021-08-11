@@ -9,28 +9,18 @@ DATE
 -Fix bugs & merge (0.2h)
 
 Total : 1.7h
-Cumul : 16.2h
+Cumul : 18.7h
 
 --------------------------------------------------
 10/08/2021
-<<<<<<< Updated upstream
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)
 - Services component (2h)
-=======
 - Création Footer et Composant nousDev (2.5h)
-
-Total heures : 2.5
-Cumul heures : 13.5		
-
---------------------------------------------------
-10/08/2021
->>>>>>> Stashed changes
 - Recherche code couleur (0.3h)
 
-Total heures : 3.8
-Cumul heures : 14.5	
-
+Total heures : 6.3
+Cumul heures : 17	
 
 
 --------------------------------------------------
