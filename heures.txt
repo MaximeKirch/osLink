@@ -13,9 +13,19 @@ Cumul : 16.2h
 
 --------------------------------------------------
 10/08/2021
+<<<<<<< Updated upstream
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)
 - Services component (2h)
+=======
+- Création Footer et Composant nousDev (2.5h)
+
+Total heures : 2.5
+Cumul heures : 13.5		
+
+--------------------------------------------------
+10/08/2021
+>>>>>>> Stashed changes
 - Recherche code couleur (0.3h)
 
 Total heures : 3.8

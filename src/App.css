@@ -23,6 +23,7 @@
   --lavender:rgb(175,164,206); /*AFA4CE*/
   --prism-Pink:rgba(240,161,191); /*F0A1BF*/
   --placid-Blue:rgb(140,172,211); /*#8CACD3*/
+  --light-illuminating : rgb(253,247,210); /*#FDF7D2*/
 }
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -480,7 +481,12 @@ text-align: justify;
 width: 80%;
 font-family:'Arvo';
 font-weight: 400;
-color:var(--ultimate-Gray);
+}
+
+#mNousDev{
+    background-color:var(--light-illuminating);
+    color: var(--ultimate-Gray);
+    padding: 20px;
 }
 
 /* -------------------------------------------------------------------------------------------------- */
