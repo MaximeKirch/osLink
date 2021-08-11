@@ -3,16 +3,11 @@
 /* 1. Nav Component */
 /* 2. Body Component */
 /* 3. HeroBanner Component */
-<<<<<<< HEAD
-/* 4. Form Contact */
+/* 4. ContactForm */ 
 /* 5. Twitter Timeline */
 /* 6. Services Component */
-=======
-/* 4. ContactForm */
-/* 5. Twitter Timeline */
-/* 6. NousDev Component*/
+/* 7. NousDev Component*/
 /* Z.Footer */
->>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
@@ -54,12 +49,8 @@
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 32px;
-<<<<<<< HEAD
-  color: var(--secondary-color);
-=======
   color: var(--ultimate-Gray);
   
->>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 }
 
 a {
@@ -361,22 +352,14 @@ input {
 
 /* -------------------------------------------------------------------------------------------------- */
 
-<<<<<<< HEAD
 /* 6. Services Component */ 
 
 .serviceContainer {
   display: flex;
-=======
-/* 6. NousDev Component*/
-.nousDevContainer {
->>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
-  width: auto;
-  
 }
 
-<<<<<<< HEAD
 .serviceContainer p {
-  color: var(--third-color);
+  color: var(--placid-Blue);
   font-family: var(--secondary-font);
 }
 
@@ -392,7 +375,7 @@ input {
 
 .serviceTitle1 {
   width: 250px;
-  color: var(--third-color);
+  color: var(--ultimate-Gray);
   font-family: var(--secondary-font);
   font-size: 32px;
   font-weight: 400;
@@ -402,7 +385,7 @@ input {
 
 .serviceTitle2 {
   width: 250px;
-  color: var(--third-color);
+  color: var(--ultimate-Gray);
   font-family: var(--secondary-font);
   font-size: 32px;
   font-weight: 400;
@@ -431,7 +414,25 @@ input {
 
 }
 
-=======
+/* 6. NousDev Component*/
+.nousDevContainer {
+  width: auto;
+  
+}
+
+.nousDevContainer h2 {
+  color: var(--ultimate-Gray);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  
+}
+
+.nousDevTitle {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
 .nousDev {
   display: flex;
   flex-wrap: wrap;
@@ -472,4 +473,3 @@ color:var(--ultimate-Gray);
 .lastFooter{
   text-align: center;
 }
->>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff

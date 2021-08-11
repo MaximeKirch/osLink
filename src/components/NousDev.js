@@ -6,7 +6,7 @@ function NousDev() {
     return(
     <>
         <div className="nousDevContainer">
-            <h2>On se présente</h2>
+            <h2 className="nousDevTitle">On se présente</h2>
 
             <div className="nousDev">
 
