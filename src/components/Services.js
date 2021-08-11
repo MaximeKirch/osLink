@@ -24,7 +24,7 @@ function Service() {
 
                         <div className='icons'>
                             { <img className='serviceImg' src={cobweb} /> }
-                            <p>HTML 5, CSS3, JS11</p>
+                            <p>HTML, CSS, JS</p>
                         </div>
 
                         <div className='icons'>
@@ -49,7 +49,7 @@ function Service() {
 
                         <div className='icons'>
                             { <img className='serviceImg'  src={man} /> }
-                            <p>Frameworks friendly</p>
+                            <p>Frameworks Friendly</p>
                         </div>
                     </div>
                 </div>

@@ -75,7 +75,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--illuminating);
-  color: var(--ultimate-Gray);
+  color: var(--lavender);
   height: 35px;
   width: 150px;
   font-size: 18px;
@@ -356,44 +356,51 @@ input {
 
 .serviceContainer {
   display: flex;
+  background-color: rgba(175,164,206,0.25);
+  width: 80%;
+ border-radius: 25px;
+ margin-left: 5%;
+ border:rgba(245,223,77,0.2) 0.5px solid
 }
 
 .serviceContainer p {
-  color: var(--placid-Blue);
+  color: var(--ultimate-Gray);
   font-family: var(--secondary-font);
+  
 }
 
 .serviceInfos {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-left: 20px;
 }
 
 .serviceInfos p {
-  color: var(--ultimate-Gray);
-  font-size: 20px;
+  color: var(--illuminating);
+  font-size: 24px;
   font-family: var(--secondary-font);
 }
 
 #phone {
   height: 700px;
   width: 500px;
+  margin-top: 20px;
 }
 
 .serviceTitle1 {
-  width: 250px;
-  color: var(--ultimate-Gray);
+  width: 400px;
+  color: var(--lavender);
   font-family: var(--secondary-font);
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 400;
   margin-bottom: -30px;
   text-align: left;
 }
 
 .serviceTitle2 {
-  width: 250px;
-  color: var(--ultimate-Gray);
+  width: 400px;
+  color: var(--lavender);
   font-family: var(--secondary-font);
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 400;
   text-align: left;
  
@@ -416,7 +423,6 @@ input {
 .icons {
   height: 150px;
   width: 150px;
-  color: var(--lead-Crystal);
   border-radius: 5px;
   margin: 5px;
   display: flex;
@@ -426,7 +432,7 @@ input {
 }
 
 .icons p {
-  color: var(--ultimate-Gray);
+  color: var(--lavender);
   font-size: 18px;
   text-align: center;
 }
@@ -446,14 +452,14 @@ input {
 
 /* 6. NousDev Component*/
 .nousDevContainer {
+  display: flex;
   width: auto;
+  flex-wrap: nowrap;
   
 }
 
 .nousDevContainer h2 {
-  color: var(--ultimate-Gray);
-  font-family: var(--secondary-font);
-  font-size: 24px;
+
   
 }
 
@@ -461,6 +467,9 @@ input {
   display: flex;
   width: auto;
   justify-content: center;
+  color: var(--ultimate-Gray);
+  font-family: var(--secondary-font);
+  font-size: 24px;
 }
 
 .nousDev {

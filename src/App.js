@@ -18,7 +18,6 @@ function App() {
       </header>
 
       <HeroBanner />
-      <NousDev />
       <Body />
       <ContactForm />
       </div>

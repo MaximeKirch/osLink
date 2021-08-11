@@ -1,12 +1,15 @@
 import React from 'react'
 import '../App.css'
+import Twitter from './Twitter'
 
 
 function NousDev() {
     return(
     <>
+        <h2 className="nousDevTitle">On se présente</h2>
+        
         <div className="nousDevContainer">
-            <h2 className="nousDevTitle">On se présente</h2>
+            
 
             <div className="nousDev">
 
@@ -31,6 +34,8 @@ function NousDev() {
             </p>
 
             </div>
+
+            <Twitter />
 
         </div>
 
