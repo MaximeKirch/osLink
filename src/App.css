@@ -507,21 +507,22 @@ color:var(--ultimate-Gray);
   }
 
   .testimonialText {
-    color: var(--lavender);
-    font: var(--primary-font);
+    color: var(--ultimate-Gray);
+    font: var(--secondary-font);
+    font-weight: 700;
     font-size: 24px;
   }
 
   .testimonialText::before {
     content:'"';
-    color: var(--ultimate-Gray);
+    color: var(--lavender);
     font-size:32px;
     margin-right:2px;
   }
 
   .testimonialText::after {
     content:'"';
-    color: var(--ultimate-Gray);
+    color: var(--lavender);
     font-size: 32px;
     margin-left:2px;
   }
@@ -532,11 +533,11 @@ color:var(--ultimate-Gray);
     padding: 10px 0px;
     border-radius: 10px;
     justify-content: space-around;
-    background: var(--lavender);
+    background: rgba(175,164,206,0.4);
   }
 
   .profileTestimonial p {
-    color: rgba(51,51,51,1);
+    color: var(--illuminating);
     font-family: var(--secondary-font);
   }
 
