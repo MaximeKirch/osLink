@@ -3,18 +3,15 @@ DATE
 
 --------------------------------------------------
 10/08/2021
-<<<<<<< HEAD
 - Identité visuelle (1h)
 - Flux Twitter (0.5h)
-- Services component (1h)
-=======
+- Services component (2h)
 - Recherche code couleur (0.3h)
 
-Total heures : 0.3
-Cumul heures : 11	
+Total heures : 3.8
+Cumul heures : 14.5	
 
 
->>>>>>> 6103551c0e9b97a4c15fee5bd7833159970106ff
 
 --------------------------------------------------
 10/08/2021
