@@ -363,7 +363,7 @@ input {
   background-color: rgba(175,164,206,0.1);
   width: 80%;
  border-radius: 25px;
- margin-left: 5%;
+ margin-left: 10%;
  border:rgba(245,223,77,0.3) 0.5px solid
 }
 
@@ -510,14 +510,21 @@ font-weight: 400;
   
   .testimonialContainer {
     display: flex;
+    width: 80%;
     justify-content: center;
+    flex-wrap: wrap;
+    border-top: 0.5px solid rgba(245,223,77,0.3);
+    border-bottom: 0.5px solid rgba(245,223,77,0.3);
     margin-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
   .testimonialText {
     color: var(--ultimate-Gray);
     font: var(--secondary-font);
-    font-weight: 700;
+    font-weight: 400;
+    font-style: italic;
     font-size: 24px;
   }
 
@@ -547,6 +554,7 @@ font-weight: 400;
   .profileTestimonial p {
     color: var(--illuminating);
     font-family: var(--secondary-font);
+    font-weight: 300;
   }
 
   #avatar {
