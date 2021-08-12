@@ -4,6 +4,8 @@ import './App.css';
 import HeroBanner from'./components/HeroBanner'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+import Search from './components/Search';
+
 
 
 function App() {
@@ -12,12 +14,16 @@ function App() {
       <div className="appContent">
       <header className="appHeader">
         <Nav />
-        
+                
       </header>
 
       <HeroBanner />
       <Body />
-      <ContactForm />
+        <div className="devPage">
+          <Search />
+          <ContactForm />
+        
+        </div>
       </div>
       <Footer />
     </div>

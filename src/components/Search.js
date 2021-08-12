@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from './Dropdown';
+import SearchModule from './SearchModule';
 
 const Search = () => {
     
@@ -8,8 +8,8 @@ const Search = () => {
 
         <div>
 
-            <Dropdown />
-
+            <SearchModule />
+            
         </div>
 
     );
