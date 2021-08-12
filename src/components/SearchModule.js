@@ -6,7 +6,7 @@
 
     //Ici j'envoie une requête sur l'API pour récupérer le Json des repos
 
-    const fetchRepositories = async () => {
+        const fetchRepositories = async () => {
         repositories = await fetch (
             'https://api.trending-github.com/github/repositories')
             .then(res => res.json());
@@ -22,7 +22,9 @@
                 /* Ici on filtre sur la description 
                 on utilise la méthode includes pour chercher les correspondances
                 on ramène la description et les termes de recherche en minuscule pour la casse*/ 
-                .filter(repository => repository.description.toLowerCase().includes(searchTerm.toLowerCase))
+                .filter(repository => repository.description.toLowerCase()
+                .includes(searchTerm.toLowerCase()
+                ))
                 // Ici on crée un nouvel objet avec les résultats
                 .map(repository => (
 

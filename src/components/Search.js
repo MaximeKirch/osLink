@@ -14,9 +14,7 @@ const Search = () => {
             placeholder="Tapez un mot-clef" 
             autocomplete="off"/>
 
-           <ul id="results">
-               top
-           </ul>
+           <ul id="results"></ul>
 
             <script src="./SaearchModule.js" type="text/javascript"></script>
             
