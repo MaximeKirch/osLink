@@ -2,6 +2,13 @@ DATE
 	- Tâche (temps en heures)
 
 --------------------------------------------------
+12/08/2021
+
+- GithubTrends Component(3h)
+
+	Total  : 3h
+	Cumul: 22.7h
+--------------------------------------------------
 11/08/2021
 
 -Services component(1h)
