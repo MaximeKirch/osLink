@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchModule from './SearchModule';
 
 const Search = () => {
     
@@ -7,16 +8,7 @@ const Search = () => {
 
         <div>
 
-            <h2 className="searchmodule">Développeur, trouve ton projet !</h2> 
-           
-            <input type="text" 
-            id="search" 
-            placeholder="Tapez un mot-clef" 
-            autocomplete="off"/>
-
-           <ul id="results"></ul>
-
-            <script src="./SearchModule.js" type="text/javascript"></script>
+            <SearchModule />
             
         </div>
 

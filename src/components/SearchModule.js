@@ -1,8 +1,28 @@
-const searchInput = document.querySelector('#search');
-const results = document.querySelector('#results');
+import React from 'react';
 
-let repositories;
-let searchTerm = ""; // Ici l'input
+const SearchModule = () => {
+    
+    const searchInput = document.querySelector('#search');
+    const results = document.querySelector('#results');
+    
+    let repositories;
+    let searchTerm = ""; // Ici l'input
+
+return (
+    <div>
+        <h2 className="searchmodule">Développeur, trouve ton projet !</h2> 
+               
+            <input type="text" 
+            id="search" 
+            placeholder="Tapez un mot-clef" 
+            autocomplete="off"/>
+    
+            <ul id="results"></ul>
+
+        </div>
+    
+    );
+
 
 //Ici j'envoie une requête sur l'API pour récupérer le Json des repos
 
@@ -53,3 +73,9 @@ showRepositories ();
     searchInput.addEventListener('input', (e) => {searchTerm = e.target.value; 
     showRepositories();
 });
+
+
+}
+
+export default SearchModule;
+
