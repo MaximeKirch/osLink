@@ -21,8 +21,11 @@ function App() {
 
       <HeroBanner />
       <Body />
-      <ContactForm />
-      <Search />
+        <div className="devPage">
+          <Search />
+          <ContactForm />
+        
+        </div>
       </div>
       <Footer />
     </div>

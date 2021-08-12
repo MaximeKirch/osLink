@@ -662,8 +662,8 @@ input:focus {
   color:var(--ultimate-Gray);
 }
 .repository-avatar{
-  width: 2.5rem;
-  height: 1.7rem;
+  width: 0.5rem;
+  height: 0.5rem;
   margin-left: 0.5rem;
   border-radius: 50px;
   box-shadow: 1px 1px 3px var(--ultimate-Gray);
