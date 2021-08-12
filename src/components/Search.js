@@ -7,7 +7,7 @@ const Search = () => {
 
         <div>
 
-            <h2>Développeur, trouve ton projet !</h2> 
+            <h2 className=searchmodule>Développeur, trouve ton projet !</h2> 
            
             <input type="text" 
             id="search" 
@@ -16,7 +16,7 @@ const Search = () => {
 
            <ul id="results"></ul>
 
-            <script src="./SaearchModule.js" type="text/javascript"></script>
+            <script src="./SearchModule.js" type="text/javascript"></script>
             
         </div>
 

@@ -625,6 +625,64 @@ font-weight: 400;
 
 /* -------------------------------------------------------------------------------------------------- */
 
+/* 9.Module Search */
+
+h2 .searchmodule{
+	text-transform: uppercase;
+  color: var(--illuminating);
+  padding: 3rem 0;
+}
+input #search{
+  margin-bottom: 2rem;
+	font-family: inherit;
+	border-radius: 50px;
+	padding: .5rem;
+  width: 500px;
+  outline: none;
+  font-size: 2rem;
+  border: 2px solid #333;
+  color: var(--ultimate-Gray);
+  transition: all .3s ease;
+}
+input:focus {
+  border: 2px solid var(--illuminating);
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+.repository-item{
+  border-radius: 25px;
+  background: linear-gradient(90deg,var(--light-illuminating) 0%, var(--illuminating) 100%);
+	box-shadow: 0 2px 5px var(--ultimate-Gray);
+	display: flex;
+	align-items: center;
+	padding: 0.3rem;
+  width: 380px;
+  margin: .3rem auto;
+  color:var(--ultimate-Gray);
+}
+.repository-avatar{
+  width: 2.5rem;
+  height: 1.7rem;
+  margin-left: 0.5rem;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px var(--ultimate-Gray);
+}
+.repository-name{
+	flex: 2;
+	margin: 0 5px;
+	text-align: center;
+}
+.repositoy-description{
+	border-left: 1px solid var(--ultimate-Gray);
+	padding: 0 1rem;
+	flex: 1;
+	text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
 /* Z.Footer */
 .footerContainer{
   display :flex;
