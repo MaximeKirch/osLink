@@ -1,5 +1,4 @@
 import React from 'react';
-import Dropdown from './Dropdown';
 
 const Search = () => {
     
@@ -8,8 +7,19 @@ const Search = () => {
 
         <div>
 
-            <Dropdown />
+            <h2>Développeur, trouve ton projet !</h2> 
+           
+            <input type="text" 
+            id="search" 
+            placeholder="Tapez un mot-clef" 
+            autocomplete="off"/>
 
+           <ul id="results">
+               top
+           </ul>
+
+            <script src="./SaearchModule.js" type="text/javascript"></script>
+            
         </div>
 
     );

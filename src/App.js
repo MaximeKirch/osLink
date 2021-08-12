@@ -6,6 +6,7 @@ import ContactForm from './components/ContactForm'
 import NousDev from './components/NousDev'
 import Twitter from './components/Twitter'
 import Footer from './components/Footer'
+import Search from './components/Search';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <HeroBanner />
       <Body />
       <ContactForm />
+      <Search />
       </div>
       <Footer />
     </div>
