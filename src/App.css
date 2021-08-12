@@ -627,12 +627,11 @@ font-weight: 400;
 
 /* 9.Module Search */
 
-h2 .searchmodule{
-	text-transform: uppercase;
+.searchmodule{
   color: var(--illuminating);
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
-input #search{
+#search{
   margin-bottom: 2rem;
 	font-family: inherit;
 	border-radius: 50px;
@@ -640,7 +639,7 @@ input #search{
   width: 500px;
   outline: none;
   font-size: 2rem;
-  border: 2px solid #333;
+  border: 2px solid var(--illuminating);
   color: var(--ultimate-Gray);
   transition: all .3s ease;
 }
