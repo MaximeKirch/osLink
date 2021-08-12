@@ -22,7 +22,6 @@ function App() {
       <HeroBanner />
       <Body />
       <ContactForm />
-      <Search />
       </div>
       <Footer />
     </div>

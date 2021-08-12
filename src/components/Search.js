@@ -7,7 +7,7 @@ const Search = () => {
 
         <div>
 
-            <h2 className=searchmodule>Développeur, trouve ton projet !</h2> 
+            <h2 className="searchmodule">Développeur, trouve ton projet !</h2> 
            
             <input type="text" 
             id="search" 

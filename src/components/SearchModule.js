@@ -29,7 +29,7 @@ const showRepositories = async() => {
 
                 //Ici j'injecte le HTML avec ma structure de résultat
                 `
-                <li class="repository-item>
+                {<li class="repository-item>
                 <h3 class="repository-name">${repository.name}</h3>
                 <h4 class="repository-author">${repository.author}</h4>
                 <p class="repository-description">${repository.description}</p>
@@ -38,7 +38,7 @@ const showRepositories = async() => {
                 <span class="repository-forks">${repository.forks}</span>
                 <span class="repository-language">${repository.language}</span>
                 <a href=${repository.url}>Voir le projet</a> 
-                </li>
+                </li>}
 
                 `
 
