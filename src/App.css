@@ -9,6 +9,9 @@
 /* 6. Services Component */
 /* 7. NousDev Component*/
 /* 8. Testimonials Component */
+/* 9. GithubTrends Component */
+/* 10. Research Component */
+/* 11. Modal Component */ 
 /* Z.Footer */
 
 
@@ -73,9 +76,14 @@ a {
   margin-top: 15px;
 }
 
+#submit {
+  display: flex;
+  width: auto;
+}
+
 
 #submitBtn {
-  border-radius: 25px;
+  border-radius: 2px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -472,8 +480,8 @@ input {
 
 
 
-
-/* 6. NousDev Component*/
+/* ------------------------------------------------------------------------- */
+/* 7. NousDev Component*/
 .nousDevContainer {
   display: flex;
   width: auto;
@@ -589,7 +597,7 @@ font-weight: 400;
 
   #commentBtn {
     margin-top: 15px;
-    border-radius: 25px;
+    border-radius: 2px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -699,7 +707,7 @@ font-weight: 400;
   }
 
   #randomBtn {
-    border-radius: 25px;
+    border-radius: 2px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -757,7 +765,7 @@ font-weight: 400;
 
 
 /* -------------------------------------------------------------------------------------------------- */
-/* 9.Module Search */
+/* 10.Module Search */
 
 .searchmodule{
   color: var(--illuminating);
@@ -810,6 +818,23 @@ input:focus {
 	padding: 0 1rem;
 	flex: 1;
 	text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 11.Modal Component */
+
+.Modal {
+  background-color: var(--lavender);
+  opacity: 0.8;
+  border: solid 1px #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  width: 360px; 
+  box-sizing: border-box; 
+  transition: all 0.3s ease-out;
+  margin: auto;
+  margin-top: 350px;
 }
 
 /* -------------------------------------------------------------------------------------------------- */

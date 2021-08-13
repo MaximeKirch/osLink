@@ -1,8 +1,11 @@
 import React from 'react'
 import logo from '../assets/connection.png'
+import ProjectButton from './ProjectButton'
 import '../App.css'
 
 function Nav() {
+
+    
     return(
         <>
 
@@ -17,10 +20,7 @@ function Nav() {
 
             
 
-        <div classname="submit">
-            <button id="submitBtn"><a href='#'>Submit project</a></button>
-
-        </div>
+        <ProjectButton />
         
         </div>
 

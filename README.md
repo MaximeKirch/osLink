@@ -6,6 +6,10 @@
 
 Application web de mise en commun de projets Open Source entre développeurs et clients.
 
+13/08/2021
+--------------------------------------------
+  - Modifs mineures CSS
+
 12/08/2021
 ---------------------------------------------
   - GithubTrends component
