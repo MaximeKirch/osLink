@@ -826,17 +826,91 @@ input:focus {
 
 .Modal {
   background-color: var(--lavender);
-  opacity: 0.8;
+  opacity: 1;
   border: solid 1px #ccc;
   box-shadow: 1px 1px 1px black;
   padding: 16px;
-  width: 360px; 
+  width: 500px; 
   box-sizing: border-box; 
   transition: all 0.3s ease-out;
   margin: auto;
-  margin-top: 350px;
+  margin-top: 100px;
+  margin-left: 20%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
+#close {
+ position: relative;
+ cursor: pointer;
+ text-align: center;
+ background: var(--illuminating);
+ color: var(--ultimate-Gray);
+ margin-right: 5px;
+ height: 25px;
+ width: auto;
+}
+
+
+
+#projectTitle {
+  display: flex;
+  justify-content: center;
+  font-family: var(--secondary-font);
+  font-size: 32px;
+  color: var(--illuminating);
+}
+
+#projectForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#projectForm input {
+  align-self: center;
+  
+}
+
+.projectSelect {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content: center;
+}
+
+.projectSelect h3 {
+  text-align: center;
+  font-family: var(--secondary-font); 
+  font-size: 24px;
+  color: var(--illuminating);
+}
+
+.projectSelect select {
+  width: 30%;
+  margin: auto;
+  font-family: var(--primary-font);
+  margin-bottom: 20px;
+}
+
+.projectSelect textarea {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  color: var(--ultimate-Gray);
+  font-family: var(--primary-font);
+}
+
+.Modal button {
+  display: flex;
+  margin-top: 10px;
+  align-self: center;
+  
+}
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */

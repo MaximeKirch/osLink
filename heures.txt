@@ -5,8 +5,9 @@ DATE
 13/08/2021
 
 - Modifs mineures CSS (0.5h)
-
-	Cumul : 23.2h
+- Submit Project component (1h)
+	Total : 1.5h
+	Cumul : 24.2h
 
 
 --------------------------------------------------

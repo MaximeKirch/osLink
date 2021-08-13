@@ -3,27 +3,27 @@ import '../App.css'
 import Modal from './Modal'
 
 
+
 function ProjectButton() {
 
-    const [state, setState] = useState(false)
+
+const [isOpen, setIsOpen] = useState(false)
 
 
-
-    
-
-    return (
-        <div className='submit'>
-             
-            <button  id="submitBtn"><a href='#'>Submit project</a></button>
-
-            
-
+return isOpen ? (
+        <>
         
-        </div>
-    )
-    
-    
+        <Modal />
+        <button id="close" onClick= {() => setIsOpen(false)}>Close X</button>
+        </>
+) : (
+    <button id="submitBtn" onClick = {() => setIsOpen(true)}>Submit project</button>
+)
+
+
+
 }
+
 
 
 export default ProjectButton

@@ -9,6 +9,7 @@ Application web de mise en commun de projets Open Source entre développeurs et 
 13/08/2021
 --------------------------------------------
   - Modifs mineures CSS
+  - Submit project component 	
 
 12/08/2021
 ---------------------------------------------
