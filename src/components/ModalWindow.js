@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ModalWindow = ({open, hide}) => open ? (
 
@@ -16,15 +17,19 @@ const ModalWindow = ({open, hide}) => open ? (
 
             <div className="choice">
 
-                <div className="dev">
+                <NavLink exact to = "/dev">
 
-                </div>
+                    Développeurs
 
-                <div className="asso">
+                </NavLink>
 
-                </div>
+                <NavLink exact to = "asso">
+
+                    Associations
+
+                </NavLink>
             </div>
-            
+
         </div>
 
     </div>

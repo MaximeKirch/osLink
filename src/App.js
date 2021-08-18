@@ -1,42 +1,32 @@
-import Nav from './components/Nav'
-import Body from './components/Body'
+
 import './App.css';
-import HeroBanner from'./components/HeroBanner'
-import ContactForm from './components/ContactForm'
-import Footer from './components/Footer'
-import Search from './components/Search'
-import Faq from './components/Faq'
-import ModalLogic from './components/ModalLogic';
-import ModalWindow from './components/ModalWindow';
+import {BrowserRouter, Switch, Route} from "react-router-dom";
+import Home from './pages/Home';
+import Dev from './pages/Dev'
+import Asso from './pages/Asso';
+import NotFound from './pages/NotFound';
 
 
 
-function App() {
+const App = () => {
 
-  const {open, toggle} = ModalLogic();
 
   return (
-    <div className="App">
-      <div className="appContent">
-      <header className="appHeader">
-        <Nav />
-                
-      </header>
 
-      <HeroBanner />
-      <Body />
-      <ModalWindow
-      open={open}
-      hide={toggle}
-      />
-        <div className="devPage">
-          <ContactForm />
-          <Faq />
-        
-        </div>
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+
+      <Switch>
+
+        <Route path="/osLink" exact component = {Home} />
+        <Route path="/dev" exact component = {Dev} />
+        <Route path="/asso" exact componet = {Asso} />
+        <Route component = {NotFound} />
+
+      </Switch>
+    
+    </BrowserRouter>
+    
+
   );
 }
 

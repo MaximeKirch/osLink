@@ -4,37 +4,44 @@ import Body from '../components/Body';
 import HeroBanner from'../components/HeroBanner';
 import Footer from '../components/Footer';
 import Faq from '../components/Faq';
-import Search from '../components/Search';
+import ModalLogic from '../components/ModalLogic';
+import ModalWindow from '../components/ModalWindow';
 
+const Home = () => {
+    
+    const {open, toggle} = ModalLogic();
 
-const Dev = () => {
     return (
-        <div className="dev">
+
+        <div className="home">
 
             <div className="appContent">
 
                 <header className="appHeader">
 
                     <Nav />
-
+          
                 </header>
 
                 <HeroBanner />
 
                 <Body />
 
-                <Search />
+                <ModalWindow
+                open={open}
+                hide={toggle}
+                />
 
                 <Faq />
-
+  
 
             </div>
 
         <Footer />
 
         </div>
-
+            
     );
 };
 
-export default Dev;
+export default Home;
