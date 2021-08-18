@@ -14,6 +14,8 @@
 /* 11. Modal Component */ 
 /* 12. FAQs Component */
 /* 13. Modal Window */
+/* 14. Search */
+/* 15. Search Module */
 /* Z.Footer */
 
 
@@ -1023,7 +1025,67 @@ border-radius: 5px;
   border-radius: 20px;
 }
 
+/* -------------------------------------------------------------------------------------------------- */
 
+/* 14.Search */
+
+.projects .filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.projects .sort-container {
+  margin: 10px 0;
+}
+
+.projects .sort-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
+.projects .cancel {
+  text-align: center;
+  border: 2px var(--black) solid;
+  background: var(--illuminating);
+  width: 20%;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 15.SearchModule */
+
+.searchModule {
+  background-color: var(--lead-Crystal);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 1px 0;
+  border-radius: 15px;
+}
+
+
+.searchModule img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.searchModule ul {
+  background-color: var(--light-illuminating);
+  border-radius: 15px;
+}
 
 
 

@@ -9,7 +9,11 @@ const SearchModule = (props) => {
             <div className="data-container">
                 <ul>
                     <li>{project.name}</li>
-                    <li>{project.descritpion}</li>
+                    <li>{project.author}</li>
+                    <li>{project.description}</li>
+                    <li>{project.stars}</li>
+                    <li>{project.forks}</li>
+                    <li>{project.language}</li>
                 </ul>
 
             </div>
