@@ -13,17 +13,17 @@ const ModalWindow = ({open, hide}) => open ? (
                 <span>&times;</span>
             </button>
 
-            <h2>Quel expérience recherchez vous ?</h2>
+            <h2>Quel expérience recherchez-vous ?</h2>
 
             <div className="choice">
 
-                <NavLink exact to = "/dev">
+                <NavLink className="choice-link" exact to = "/dev">
 
                     Développeurs
 
                 </NavLink>
 
-                <NavLink exact to = "asso">
+                <NavLink className="choice-link" exact to = "asso">
 
                     Associations
 
