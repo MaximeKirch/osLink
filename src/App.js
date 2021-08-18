@@ -20,7 +20,7 @@ const App = () => {
 
         <Route path="/osLink" exact component = {Home} />
         <Route path="/dev" exact component = {Dev} />
-        <Route path="/asso" exact componet = {Asso} />
+        <Route path="/asso" exact component = {Asso} />
         <Route component = {NotFound} />
 
       </Switch>
