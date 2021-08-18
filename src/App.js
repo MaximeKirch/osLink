@@ -13,6 +13,7 @@ const App = () => {
 
   return (
 
+      // Ici on route les différentes expériences
     <BrowserRouter>
 
       <Switch>

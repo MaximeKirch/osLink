@@ -8,6 +8,8 @@ import ModalLogic from '../components/ModalLogic';
 import ModalWindow from '../components/ModalWindow';
 
 const Home = () => {
+
+    // Ici j'appelle mes constantes pour ma logique modale
     
     const {open, toggle} = ModalLogic();
 
@@ -27,6 +29,8 @@ const Home = () => {
 
                 <Body />
 
+            // Ici on appelle la fenêtre modale 
+            
                 <ModalWindow
                 open={open}
                 hide={toggle}
