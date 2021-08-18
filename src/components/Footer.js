@@ -10,7 +10,7 @@ function Footer() {
             <div className="footerRow">
                 {/*colonne1*/}
                 <div className="col">
-                    <h3> Où Nous trouver ?</h3>
+                    <h3 className="h3Footer"> Où Nous trouver ?</h3>
                     <ul className="footerList">
                         <li>Fajema</li>
                         <li>Partout dans le monde</li>
@@ -19,7 +19,7 @@ function Footer() {
                 </div>
                 {/*colonne2*/}
                 <div className="col">
-                    <h3>Créé par</h3>
+                    <h3 className="h3Footer">Créé par</h3>
                     <ul className="footerList">
                         <li>Fabrice HUET</li>
                         <li>Jefferson Guegan</li>
@@ -28,7 +28,7 @@ function Footer() {
                 </div>
                 {/*colonne3*/}
                 <div className="col">
-                <h3>Sur les réseaux</h3>
+                <h3 className="h3Footer">Sur les réseaux</h3>
                     <ul className="footerList">
                         <li>Twitter</li>
                         <li>Instagram</li>

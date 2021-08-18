@@ -12,6 +12,7 @@
 /* 9. GithubTrends Component */
 /* 10. Research Component */
 /* 11. Modal Component */ 
+/* 12. FAQs Component */
 /* Z.Footer */
 
 
@@ -911,6 +912,75 @@ input:focus {
   align-self: center;
   
 }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 12.FAQ Component*/
+
+.faqContainer{
+  Margin:auto;
+  width: 80%;
+  margin-bottom: 20px;
+
+}
+
+.h3Faq{
+  font-family: var(--primary-font);
+  color: var(--ultimate-Gray);
+  margin-top: 20px;
+    text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.summaryFaq{
+  font-family: var(--primary-font);
+background-color: var(--ultimate-Gray);
+color: var(--light-illuminating);
+border: 1px solid var(--illuminating);
+border-radius: 5px;
+padding: 10px;
+cursor: pointer;
+}
+
+.faqAnswer{
+  font-family: var(--secondary-font);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--ultimate-Gray);
+  background-color: var(--light-illuminating);
+  color: var(--ultimate-Gray);
+}
+
+.detailsFaqCont{
+  margin: 10px;
+}
+
+details[open] > summary {
+
+background-color: var(--ultimate-Gray);
+color: var(--illuminating);
+border: 1px solid var(--illuminating);
+border-radius: 5px;
+
+  animation: fade 0.1s ease-in-out;
+}
+
+@keyframes fade {
+  0% { opacity:0;
+  }
+
+  100%{ opacity:1
+  }
+  
+}
+
+
+
+
+
+
+
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */
@@ -937,4 +1007,9 @@ input:focus {
 
 .lastFooter{
   text-align: center;
+}
+
+.footerList{
+  list-style: none;
+  text-align: left;
 }

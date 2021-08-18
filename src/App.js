@@ -4,7 +4,8 @@ import './App.css';
 import HeroBanner from'./components/HeroBanner'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
-import Search from './components/Search';
+import Search from './components/Search'
+import Faq from './components/Faq'
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <div className="devPage">
           <Search />
           <ContactForm />
+          <Faq />
         
         </div>
       </div>
