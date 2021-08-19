@@ -12,7 +12,8 @@ function Footer() {
                 <div className="col">
                     <h3 className="h3Footer"> Où Nous trouver ?</h3>
                     <ul className="footerList">
-                        <li>Fajema</li>
+                        <li>FaJeMa</li>
+                        <li></li>
                         <li>Partout dans le monde</li>
                         <li>Nous sommes en Remote</li>
                     </ul>
@@ -30,15 +31,16 @@ function Footer() {
                 <div className="col">
                 <h3 className="h3Footer">Sur les réseaux</h3>
                     <ul className="footerList">
-                        <li>Twitter</li>
+                        <li><img src=twitter.png>Twitter</li>
                         <li>Instagram</li>
                         <li>Facebook</li>
+                        <li>Linkedin</li>
                     </ul>
                 </div>    
             </div>
                      
         </div>
-        <hr></hr>
+        <hr className="hrFooter"></hr>
         <div className="footerNoRow">
             <p className="lastFooter">
             &copy;{new Date().getFullYear()} FAJEMA INC</p>
