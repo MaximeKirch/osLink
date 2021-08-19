@@ -32,6 +32,7 @@
   --prism-Pink:rgba(240,161,191); /*F0A1BF*/
   --placid-Blue:rgb(140,172,211); /*#8CACD3*/
   --light-illuminating : rgb(253,247,210); /*#FDF7D2*/
+  /*css filter generator https://codepen.io/sosuke/pen/Pjoqqp */
 }
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -1140,3 +1141,17 @@ background-color : var(--illuminating);
 i{
   background-color : var(--illuminating);
 }
+
+/*.logo{
+  filter: brightness(0) saturate(100%);
+  }*/
+
+.logo{
+  width :20px;
+  filter: invert(99%) sepia(59%) saturate(2122%) hue-rotate(333deg) brightness(103%) contrast(92%);
+  }
+
+.footerList{
+  line-height: 2;
+}
+

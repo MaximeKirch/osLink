@@ -1,5 +1,9 @@
 import React from 'react'
 import '../App.css'
+import twitter from '../assets/twitter.svg'
+import facebook from '../assets/facebook.svg'
+import instagram from '../assets/instagram.svg'
+import linkedin from '../assets/linkedin.svg'
 
 
 function Footer() {
@@ -22,20 +26,25 @@ function Footer() {
                 <div className="col">
                     <h3 className="h3Footer">Créé par</h3>
                     <ul className="footerList">
-                        <li>Fabrice HUET</li>
-                        <li>Jefferson Guegan</li>
-                        <li>Maxime Kirch</li>
+                        <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                            </img> Fabrice HUET</li>
+                        <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                            </img> Jefferson Guegan</li>
+                        <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                            </img> Maxime Kirch</li>
                     </ul>
                 </div>
                 {/*colonne3*/}
                 <div className="col">
                 <h3 className="h3Footer">Sur les réseaux</h3>
                     <ul className="footerList">
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Linkedin</li>
-                    </ul>
+                        <li><img id="twitterLogo" class="logo" alt="logo Twitter" src={twitter}>
+                            </img> Twitter</li>
+                        <li><img id="instagramLogo" class="logo" alt="logo instagram" src={instagram}>
+                            </img>  Instagram</li>
+                        <li><img id="facebookLogo" class="logo" alt="logo facebook" src={facebook}>
+                            </img> Facebook</li>
+                        </ul>
                 </div>    
             </div>
                      
