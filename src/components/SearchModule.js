@@ -1,8 +1,12 @@
 import React from 'react';
 
 const SearchModule = (props) => {
+
+    //On affecte les props à un variable pour plus de praticité
     const {project} = props;
 
+    //Ici on gère l'affichage des données que l'on récupère de l'API
+    
     return (
         <li className="searchModule">
             <img src={project.avatar} alt="avatar" />

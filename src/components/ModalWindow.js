@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+//Ici via une condition ternaire on affiche la modale si open est true sinon non
+
 const ModalWindow = ({open, hide}) => open ? (
 
 <React.Fragment>
