@@ -4,6 +4,18 @@ DATE
 --------------------------------------------------
 18/08/2021
 
+- Fenêtre modale (style non-terminé) (1h)
+- Réorganisation Navigation (1h)
+- Module Search (3h30)
+- Filtres sur Search Module (1h30)
+- Retouches CSS mineures (1h)
+
+Total : 8h 
+Cumul : 34.2h
+
+--------------------------------------------------
+18/08/2021
+
 - FAQ Component(2h)
 
 	Total  : 2h

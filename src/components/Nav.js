@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/connection.png'
 import ProjectButton from './ProjectButton'
 import '../App.css'
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
 
@@ -10,16 +11,14 @@ function Nav() {
         <>
 
         <div className='navBar'>
-            <div className="navMenu">
+
+            <NavLink className="navMenu" exact to = "/osLink">
             
                 <img id="logo" src={logo} alt='navLogo' />
                 <h1 id='title'><a href="#">OS Link</a></h1>
-            
-                
-            </div>
 
+            </NavLink>
             
-
         <ProjectButton />
         
         </div>
