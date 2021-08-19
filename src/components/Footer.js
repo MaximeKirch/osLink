@@ -31,7 +31,7 @@ function Footer() {
                 <div className="col">
                 <h3 className="h3Footer">Sur les réseaux</h3>
                     <ul className="footerList">
-                        <li><img src=twitter.png>Twitter</li>
+                        <li>Twitter</li>
                         <li>Instagram</li>
                         <li>Facebook</li>
                         <li>Linkedin</li>
