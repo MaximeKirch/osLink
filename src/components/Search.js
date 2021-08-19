@@ -53,10 +53,10 @@ const Search = () => {
                                    
                                     <input type="radio"value={radio} id={radio}
                                     checked={radio==selectedRadio} 
-                                     //Ici on récupère le radio dans sa variable
+                                    //Ici on récupère le radio dans sa variable
                                     onChange={(e) => setSelectedRadio(e.target.value)}/>
 
-                                    //Ici on nomme les radios et on en rend qu'un seul sélectionnable
+                                    {/*Ici on nomme les radios et on en rend qu'un seul sélectionnable*/}
                                     <label htmlFor={radio}>{radio}</label>
                                 </li>
 
@@ -66,12 +66,12 @@ const Search = () => {
                 </div>
 
                 <div className="cancel">
-                /*Ici on crée un bouton annulant la sélection radio
-                il ne s'affiche que si un radio est coché selectRadion = true*/
+                {/*Ici on crée un bouton annulant la sélection radio
+                il ne s'affiche que si un radio est coché selectRadion = true*/}
                 {selectedRadio && <h5 onClick={() => setSelectedRadio("")}>Retirer le filtre</h5>}
                 </div>
             </div>
-        //Ici on affiche les projets par défaut on les affiche tous
+        {/*Ici on affiche les projets par défaut on les affiche tous*/}
         <ul className="projects-list">
             {projects
             //Ici on filtre sur l'input text
