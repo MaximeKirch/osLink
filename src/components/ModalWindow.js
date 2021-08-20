@@ -19,13 +19,13 @@ const ModalWindow = ({open, hide}) => open ? (
 
             <div className="choice">
 
-                <NavLink className="choice-link" exact to = "/dev">
+                <NavLink className="choice-link" id="devChoice" exact to = "/dev">
 
                     Développeurs
 
                 </NavLink>
 
-                <NavLink className="choice-link" exact to = "asso">
+                <NavLink className="choice-link" id="assoChoice"exact to = "asso">
 
                     Associations
 

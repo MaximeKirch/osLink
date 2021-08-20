@@ -17,7 +17,6 @@ function Footer() {
                     <h3 className="h3Footer"> Où Nous trouver ?</h3>
                     <ul className="footerList">
                         <li>FaJeMa</li>
-                        <li></li>
                         <li>Partout dans le monde</li>
                         <li>Nous sommes en Remote</li>
                     </ul>
@@ -29,9 +28,9 @@ function Footer() {
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
                             </img> Fabrice HUET</li>
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
-                            </img> Jefferson Guegan</li>
+                            </img> Jefferson GUEGAN</li>
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
-                            </img> Maxime Kirch</li>
+                            </img> Maxime KIRCH</li>
                     </ul>
                 </div>
                 {/*colonne3*/}

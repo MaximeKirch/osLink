@@ -962,12 +962,22 @@ cursor: pointer;
 
 details[open] > summary {
 
-background-color: var(--ultimate-Gray);
-color: var(--illuminating);
+  background-color: var(--ultimate-Gray);
+  color: var(--illuminating);
+  border: 1px solid var(--illuminating);
+  border-radius: 5px;
+  
+    animation: fade 0.3s ease-in-out;
+  }
+
+details[open] > .faqAnswer {
+
+background-color: var(--light-illuminating);
+color: var(--ultimate-Gray);
 border: 1px solid var(--illuminating);
 border-radius: 5px;
 
-  animation: fade 0.1s ease-in-out;
+  animation: fade 1s ease-in-out;
 }
 
 @keyframes fade {
@@ -1002,29 +1012,54 @@ border-radius: 5px;
   max-width: calc(100vw -20px);
   max-height: calc(100vh -20px);
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .modal-wrapper h2 {
   text-align: center;
+  font-family: var(--primary-font);
+  color: var(--ultimate-Gray);
 }
 
 .choice {
-
   display:flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
+  font-family: var(--secondary-font);
+  
+  }
 
 .choice-link {
   text-align: center;
   width:40%;
   height: 50%;
   border: 1px var(--black) solid;
-  background: var(--illuminating);
-  border-radius: 20px;
-}
+  border-radius: 2px;
+  padding:10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  #devChoice{
+background-color: var(--ultimate-Gray);
+color: var(--illuminating);
+border: 1px var(--illuminating) solid;
+  }
+
+  #assoChoice{
+background-color: var(--illuminating);
+color: var(--ultimate-Gray);
+border: 1px var(--ultimate-Gray) solid;
+  }
+
+  .choice :hover {
+    font-weight: bold;
+  }
+
+  .close{
+    border: none;
+  }
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -1142,9 +1177,6 @@ i{
   background-color : var(--illuminating);
 }
 
-/*.logo{
-  filter: brightness(0) saturate(100%);
-  }*/
 
 .logo{
   width :20px;
@@ -1153,5 +1185,11 @@ i{
 
 .footerList{
   line-height: 2;
+  font-family: var(--secondary-font);
+}
+
+.h3Footer{
+  font-family: var (--primary-font);
+  text-align: center;
 }
 
