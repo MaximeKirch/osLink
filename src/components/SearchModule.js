@@ -8,21 +8,28 @@ const SearchModule = (props) => {
     //Ici on gère l'affichage des données que l'on récupère de l'API
     
     return (
-        <li className="searchModule">
-            <a href={project.url}><img src={project.avatar} alt="avatar" /></a>
-            <div className="data-container">
-                <ul>
-                    <li>{project.name}</li>
-                    <li>{project.author}</li>
-                    <li>{project.description}</li>
-                    <li>{project.stars}</li>
-                    <li>{project.forks}</li>
-                    <li>{project.language}</li>
-                </ul>
+        <div className="searchModule">
+            <div className="searchCard">
+                <div className="data-container">
+                    <a href={project.url}><img src={project.avatar} alt="avatar" /></a>
+                    <ul>
+                        <li>{project.name}</li>
+                        <li>{project.author}</li>
+                        <li>{project.language}</li>
+                        <li>{project.description}</li>   
+                    </ul>
+                <div className="cardFooter">
+                    <ul>
+                        <li>{project.stars}</li>
+                        <li>{project.forks}</li>
+                        
+                    </ul>
+                </div>
 
+                </div>
             </div>
+        </div>
 
-        </li>
     );
 
 

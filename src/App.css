@@ -1101,13 +1101,25 @@ border: 1px var(--ultimate-Gray) solid;
 /* 15.SearchModule */
 
 .searchModule {
-  background-color: var(--lead-Crystal);
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px;
-  margin: 1px 0;
-  border-radius: 15px;
+  width: auto;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.searchCard {
+  background-color: rgba(175,164,206,0.1);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+  margin: 0px 20px;
+  border-radius: 25px;
+  border: 2px solid rgba(245,223,77, 0.3);
 }
 
 
