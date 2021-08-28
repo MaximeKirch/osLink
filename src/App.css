@@ -1111,11 +1111,16 @@ border: 1px var(--ultimate-Gray) solid;
 }
 
 
-.searchModule img {
+.searchModule a {
   width: 10%;
   height: 10%;
-  border-radius: 50%;
   padding: 1px;
+}
+
+.searchModule img {
+  width:50%;
+  height:50%;
+  border-radius: 50%;
 }
 
 .searchModule ul {

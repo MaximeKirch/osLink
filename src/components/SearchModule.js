@@ -9,7 +9,7 @@ const SearchModule = (props) => {
     
     return (
         <li className="searchModule">
-            <img src={project.avatar} alt="avatar" />
+            <a href={project.url}><img src={project.avatar} alt="avatar" /></a>
             <div className="data-container">
                 <ul>
                     <li>{project.name}</li>
