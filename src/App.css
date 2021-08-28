@@ -1134,16 +1134,16 @@ border: 1px var(--ultimate-Gray) solid;
 .searchModule a {
   width: 10%;
   height: 10%;
-  padding: 1px;
+  padding: 5px;
+  margin-bottom: 40px;;
 }
 
 .searchCard img {
   width: 80px;
   height: 80px;
   margin-top: 10px;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
   border-radius: 50px;
-  object-fit: cover;
 }
 
 .mainCard {
