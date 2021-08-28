@@ -4,6 +4,7 @@ import ProjectButton from './ProjectButton'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
 
+
 function Nav() {
 
     
@@ -18,6 +19,7 @@ function Nav() {
                 <h1 id='title'><a href="#">OS Link</a></h1>
 
             </NavLink>
+            
             
         <ProjectButton />
         
