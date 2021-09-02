@@ -17,6 +17,7 @@
 /* 14. Search */
 /* 15. Search Module */
 /* Z.Footer */
+/* ZZ Compotest */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
@@ -39,6 +40,7 @@
 
 /* 1. Nav Component */
 
+
 .navBar {
   display: flex;
   flex-direction: row;
@@ -49,6 +51,7 @@
   background-color: rgba(0,0,0,1);
   position: fixed;
   top: 0;
+  z-index: 2;
 }
 
 .navMenu {
@@ -1266,5 +1269,14 @@ i{
 .h3Footer{
   font-family: var (--primary-font);
   text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* ZZ. Compostest */
+
+#compotest{
+  background-color: blue;
+  color: aqua;
 }
 

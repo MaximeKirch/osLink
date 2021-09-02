@@ -3,6 +3,8 @@ import logo from '../assets/connection.png'
 import ProjectButton from './ProjectButton'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
+import Compotest from './Compotest'
+
 
 
 function Nav() {
@@ -17,10 +19,11 @@ function Nav() {
             
                 <img id="logo" src={logo} alt='navLogo' />
                 <h1 id='title'><a href="#">OS Link</a></h1>
-
+                 
             </NavLink>
+        
             
-            
+            <Compotest />
         <ProjectButton />
         
         </div>
