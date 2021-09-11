@@ -4,6 +4,7 @@ import ProjectButton from './ProjectButton'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
 import Compotest from './Compotest'
+import Dlbutton from './Dlbutton'
 
 
 
@@ -22,7 +23,7 @@ function Nav() {
                  
             </NavLink>
         
-            
+             <Dlbutton />
             <Compotest />
         <ProjectButton />
         

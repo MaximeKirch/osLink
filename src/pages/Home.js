@@ -29,7 +29,7 @@ const Home = () => {
 
                 <Body />
 
-            // Ici on appelle la fenêtre modale 
+            {/* //Ici on appelle la fenêtre modale */} 
             
                 <ModalWindow
                 open={open}

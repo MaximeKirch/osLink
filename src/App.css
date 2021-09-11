@@ -48,7 +48,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0,0,0,1);
+  background-color: --theme-color;
   position: fixed;
   top: 0;
   z-index: 2;

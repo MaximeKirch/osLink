@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import '../App.css';
-import './styles/theme.css';
-import { Button } from './components/button/button';
+import '../styles/theme.css';
+import { Button } from './button/Button';
 
 
 function Dlbutton() {
@@ -11,7 +11,7 @@ function Dlbutton() {
 
 
   const updateTheme =()=>{
-    if (theme=='light') {
+    if (theme==='light') {
       setTheme('dark');
     }
     else {
@@ -28,19 +28,19 @@ function Dlbutton() {
 
   return (
     <div className = {"App "+theme+" "+(isActive ? 'active': null)}>
-      <Button  />
+      <Button  />  
       <div id="toggle" className = {(isActive ? 'active': null)} onClick={
               () => {
                       toggleClass();
                       updateTheme()
       }
-}  label="Click Me">
+      }  label="Click Me">
       <div id="toggle" className = "indicator"></div>
       
     </div>
-      </div>
+          </div>
       
   );
 }
 
-export default Dlbutton;
+export default Dlbutton; 

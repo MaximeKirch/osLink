@@ -2,7 +2,7 @@
 import styles from './button.css';
 import React from 'react';
 
-export const Button = (props: any) => {
+export const Button = (props) => {
     const { label, onClick } = props;
 
     return (
@@ -11,4 +11,4 @@ export const Button = (props: any) => {
             <i></i>
         </div>
     );
-};
+}; 
