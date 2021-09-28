@@ -11,27 +11,36 @@ const ModalWindow = ({open, hide}) => open ? (
             
         <div className="modal-wrapper">
 
-            <button type="button" className="close" onClick={hide}>
+            <button type="button" className="close2" onClick={hide}>
                 <span>&times;</span>
             </button>
 
-            <h2>Quel expérience recherchez-vous ?</h2>
+            <h2 className="h2Modal-wrapper">Quel expérience recherchez-vous ?</h2>
 
-            <div className="choice">
+                <div className="modalContainer">
+                    <div className="choice">
+                        <ul className="ulChoice">
+                            <li className="liChoice" id="liChoice1">
+                        <NavLink className="choice-link" id="devChoice" exact to = "/dev">
 
-                <NavLink className="choice-link" id="devChoice" exact to = "/dev">
+                            Développeurs
 
-                    Développeurs
+                        </NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="choice">
+                    <ul className="ulChoice">
+                            <li className="liChoice" id="liChoice2">
+                        <NavLink className="choice-link" id="assoChoice"exact to = "asso">
 
-                </NavLink>
+                            Associations
 
-                <NavLink className="choice-link" id="assoChoice"exact to = "asso">
-
-                    Associations
-
-                </NavLink>
-            </div>
-
+                        </NavLink>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
         </div>
 
     </div>
