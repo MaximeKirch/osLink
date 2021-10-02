@@ -10,81 +10,56 @@ function Faq() {
 
                 <div className="detailsFaqCont">
                     <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 1</summary>
+                        <summary className="summaryFaq">Quel est le principe d'OSLink ? </summary>
                             <div className="faqAnswer">
-                                La réponse à la question 1 sur une ligne
+                                
+                           <p> Un partenariat gagnant-gagnant entre des développeurs en devenir et des associations prêtes à leur confier leur projet.</p>
+
+                            <p>Vous êtes une association désireuse d'avoir une visibilité sur le web ? Chez OsLink nous vous proposons des étudiants prêts à vous proposer un site ou une application fonctionnelle.</p>
+                            </div>
+                    </details>
+                </div>
+
+                <div className="detailsFaqCont">
+                    <details className="detailsFaq">
+                        <summary className="summaryFaq">Combien ça coûte ? </summary>
+                            <div className="faqAnswer">
+                            <p>Pour les associations, vous ne payez que l'hébergement de votre site ainsi que son nom de domaine (quelques dizaines d'euros par an)  et une participation forfaitaire pour la maintenance de celui-ci qui sera assurée soit par des professionnels soit par les prochains étudiants (à définir).</p>
+                            <p>Pour les étudiants, nous aimerions vous proposer quelque chose de gratuit mais nous pensons que l'investissement financier vous engage à ne pas baisser les bras et à aller au bout des choses, nous vous proposons donc une inscription à 5€ et un engagement à 2€ par site que vous vous engagez à réaliser. Vous récupérer votre investissement lorsque le projet est conforme aux attentes du demandeur. </p>
+                            Possibilité de partenariat avec l'école qui financera votre inscription au site.
                             </div>
                     </details>
                 </div>
                 <div className="detailsFaqCont">
                     <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 2</summary>
+                        <summary className="summaryFaq">Quel est le délai de livraison ?</summary>
                             <div className="faqAnswer">
-                                La réponse à la question 2<br></br>
-                                sur 2 lignes
+                          <p>  Tout dépend du projet et du nombre d'étudiants qui travailleront dessus. </p>
+                          <p>Nous pourrons réaliser une estimation en fonction du projet. Le but n'est pas de surcharger les babydev, vous pouvez vérifier votre place sur la liste d'attente.</p> 
+                          <p>En effet nous essayons de répartir les demandes à travers les écoles en partenariat afin que les temps d'attente soient écourtés le plus possible. </p>
                             </div>
                     </details>
                 </div>
                 <div className="detailsFaqCont">
                     <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 3</summary>
+                        <summary className="summaryFaq">Qui peut s'inscrire ?</summary>
                             <div className="faqAnswer">
-                                <p>La réponse à la question 3</p>
-                                <p>en 2 paragraphes</p>
+                               <p>Tout le monde ! Que vous soyez étudiant en école d'informatique, en formation accélérée (c'est d'ailleurs de le parcours que nous avons choisi !) ou encore autodidacte, OSLink est ouvert à tout le monde.</p>
+                               <p>Le seul pré-requis est l'envie d'apprendre ! </p>
                             </div>
                     </details>
                 </div>
                 <div className="detailsFaqCont">
                     <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 4</summary>
+                        <summary className="summaryFaq">Comment savoir si j'ai l'expérience requise ?</summary>
                             <div className="faqAnswer">
-                                Non, c'est bon vous avez compris
+                            <p>Peu importe le projet, votre expérience sera toujours utile. Vous avez forcément votre pierre à apporter à l'édifice.</p>
+                            <p>Parce qu'après tout, les projets ce n'est pas uniquement que du code ultra complexe, vous pourrez ajouter votre valeur que ce soit depuis le HTML en passant par JavaScript et ses frameworks, créer et entretenir des bases de données SQL ou encore </p>
                             </div>
                     </details>
                 </div>
-                <div className="detailsFaqCont">
-                    <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 5</summary>
-                            <div className="faqAnswer">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                            </div>
-                    </details>
-                </div>
-                <div className="detailsFaqCont">
-                    <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 6</summary>
-                            <div className="faqAnswer">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. <br></br>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                            </div>
-                    </details>
-                </div>
-                <div className="detailsFaqCont">
-                    <details className="detailsFaq">
-                        <summary className="summaryFaq">Question 7</summary>
-                            <div className="faqAnswer">
-                            <p className="pFaq"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-            </p>
-            <p className="pFaq"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-            </p>
-                            </div>
-                    </details>
-                </div>
+                
+               
             
             </div>
         
@@ -94,4 +69,4 @@ function Faq() {
     )
 }
 
-export default Faq
+export default Faq;
