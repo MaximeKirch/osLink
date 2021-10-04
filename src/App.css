@@ -44,7 +44,7 @@
 .navBar {
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 100px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -151,12 +151,12 @@ text-decoration: none;
 
 .bodyContainer {
   width: auto;
-  
+  box-sizing: border-box;
 
 }
 
 .Body {
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-wrap:nowrap;
@@ -239,6 +239,7 @@ text-decoration: none;
 }
 
 #heroText {
+  margin-top: 100px;
   position: absolute;
   justify-items: start;
   z-index: 1;
@@ -1380,4 +1381,6 @@ i{
   background-color: blue;
   color: aqua;
 }
+
+/* Project Button 2 */
 

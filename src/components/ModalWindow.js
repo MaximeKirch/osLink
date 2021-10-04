@@ -18,7 +18,7 @@ const ModalWindow = ({open, hide}) => open ? (
             <h2 className="h2Modal-wrapper">Quel expérience recherchez-vous ?</h2>
 
                 <div className="modalContainer">
-                    <div className="choice">
+                    <div className="choice" id="devChoiceA">
                         <ul className="ulChoice">
                             <li className="liChoice" id="liChoice1">
                         <NavLink className="choice-link" id="devChoice" exact to = "/dev">
