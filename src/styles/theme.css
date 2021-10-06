@@ -1,11 +1,11 @@
 .light {
-    --theme-color: #A80000; /*couleur de fond du bouton #toggle*/
-    --theme-page-background: #FFF; /*couleur arrière plan*/
-    --theme-page-text: #111; /*couleur texte*/
+    
+    background-color: #FFF; /*couleur arrière plan*/
+    color: var(--ultimate-Gray); /*couleur texte*/
   }
   
   .dark {
-    --theme-color: #0000A8; /*couleur de fond du bouton #toggle*/
-    --theme-page-background: #111; /*couleur arrière plan*/
-    --theme-page-text: #FFF; /*couleur texte*/
+    
+    background-color: #000; /*couleur arrière plan*/
+    color: var(--ultimate-Gray) /*couleur texte*/
   }

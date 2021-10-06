@@ -48,7 +48,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #020202;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -931,7 +931,7 @@ input:focus {
 .faqContainer{
   Margin:auto;
   width: 80%;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -1308,6 +1308,15 @@ border-radius: 5px;
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */
+
+.footerMain{
+  color: var(--ultimate-Gray);
+  margin:0;
+  background-color: #020202;
+  width: 100%;
+  border-top: 2px solid var(--illuminating);
+}
+
 .footerContainer{
   display :flex;
   justify-content: center;
@@ -1320,12 +1329,7 @@ border-radius: 5px;
   width: 50%;
 }
 
-.footerMain{
-  color: var(--ultimate-Gray);
-  margin:0;
-  background-color: rgba(30,30,30,0.9);
-  width: 100%;
-}
+
 
 .footerNoRow{
   justify-content: center;
@@ -1439,14 +1443,14 @@ i{
 #aprojectButton2 .liquid::before {
   
   border-radius: 45%;
-  background: rgba(20, 20, 20, 1);
+  background: rgba(2, 2, 2, 1);
   animation: animate 5s linear infinite;
 }
 
 #aprojectButton2 .liquid::after {
   
   border-radius: 40%;
-  background: rgba(20, 20, 20, .5);
+  background: rgba(2, 2, 2, .5);
   animation: animate 10s linear infinite;
 }
 
@@ -1462,3 +1466,4 @@ i{
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
