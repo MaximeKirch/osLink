@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/connection.png'
-import ProjectButton from './ProjectButton'
+import ProjectButton2 from './ProjectButton2'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
 import Compotest from './Compotest'
@@ -25,7 +25,7 @@ function Nav() {
         
              <Dlbutton />
             
-        <ProjectButton />
+        <ProjectButton2 />
         
         </div>
 
