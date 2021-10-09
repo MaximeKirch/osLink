@@ -4,6 +4,7 @@ import Service from './Services'
 import NousDev from './NousDev'
 import Testimonials from './Testimonials'
 import GithubTrends from './GithubTrends'
+import Partners from './Partners';
 
 
 function Body() {
@@ -30,6 +31,8 @@ function Body() {
         <Service />
 
         <Testimonials />
+
+        <Partners />
 
         
     

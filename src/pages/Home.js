@@ -40,6 +40,7 @@ const Home = () => {
   
 
             </div>
+        
 
         <Footer />
 
