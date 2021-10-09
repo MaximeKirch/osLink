@@ -1075,6 +1075,7 @@ border-radius: 5px;
     width: 0.6em;
     height: 0.6em;
     background-color: var(--ultimate-Gray);
+    color: var(--illuminating);
     border-radius: 50%;
     transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
     top: calc(50%  / 2);
@@ -1085,12 +1086,15 @@ border-radius: 5px;
 
 
 
+
+
 #liChoice1:hover::before,
 #liChoice1:hover::after {
     width: 100%;
     height: 100%;
     border-radius: 0;
     background-color: rgb(147,149,151);
+    
 }
 
 #liChoice1:hover::before {
@@ -1100,6 +1104,7 @@ border-radius: 5px;
 #liChoice1:hover::after {
     right: -0.4em;
     filter: brightness(0.8);
+    
 }
 
 #devChoice{
@@ -1107,7 +1112,7 @@ border-radius: 5px;
 }
 
 #devChoice:hover {
-    color: rgb(245,223,77);
+  color: rgb(245,223,77);
 }
 
 #liChoice2::before,
