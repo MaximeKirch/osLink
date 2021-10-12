@@ -21,11 +21,11 @@ const ModalWindow2 = ({open, hide}) => open ? (
                     
                         <NavLink /* className="choice-link" id="devChoice" */ exact to = "/dev">
 
-                        <a id="aModal" href="#" class="btnModal">Développeurs</a>
+                        <a id="aModal" href="#" class="btnModal" >Développeurs</a>
 
                         </NavLink>
                  </div>
-                 <div>           
+                 <div className="modalContainer">           
                     
                         <NavLink className="choice-link" id="assoChoice"exact to = "asso">
 

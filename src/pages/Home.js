@@ -25,7 +25,7 @@ const Home = () => {
           
                 </header>
 
-                <HeroBanner />
+                {/* <HeroBanner /> */}
 
                 <Body />
 
