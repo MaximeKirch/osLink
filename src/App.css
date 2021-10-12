@@ -16,6 +16,7 @@
 /* 13. Modal Window */
 /* 14. Search */
 /* 15. Search Module */
+/* 16. Partners Component */ 
 /* Z.Footer */
 /* ZZ Compotest */
 
@@ -1372,6 +1373,80 @@ i{
   font-family: var (--primary-font);
   text-align: center;
 }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 16. Partners Component*/
+
+.partnerBody {
+  height: auto;
+  width: 95%;
+  background: rgba(175,164,206,0.2);
+  border-radius: 25px;
+  border: 1px solid var(--illuminating);
+  margin-left: 2%;
+ 
+}
+
+
+#partnerTitle {
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    color: var(--lavender);
+    margin-bottom: 80px;
+}
+
+
+
+
+
+.partnerMain {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+.partnerInfo {
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.partnerInfo:hover {
+  transition: 0.2s all;
+  transform: scale(1.1)
+}
+
+.partnerInfo a {
+  text-decoration: none;
+  color:var(--illuminating);
+  
+}
+
+.partnerInfo h3 {
+  font-size: 32px;
+}
+
+
+#WCS {
+  height: 100px;
+  width: 120px;
+}
+
+#git {
+  height: 100px;
+  width: 150px;
+}
+
+#google {
+  height: 100px;
+  width: 100px;
+}
+
+
 
 /* -------------------------------------------------------------------------------------------------- */
 
