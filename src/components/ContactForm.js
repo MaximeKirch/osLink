@@ -58,7 +58,7 @@ const ContactForm = () => {
     */
         if (name && isEmail() && message) {
     // La fonction récupère le template et les variables et nous les envoie par mail
-        sendFeedback ("template_5zfhsti", {
+        sendFeedback ("template_s6md2zc", {
             name,
             email,
             message,
@@ -71,7 +71,7 @@ const ContactForm = () => {
 
     const sendFeedback = (templateId, variables) => {
         window.emailjs
-            .send ("service_zdvv0qo", templateId, variables)
+            .send ("service_7pj63ry", templateId, variables)
             .then ((res) => {
                 successMessage();
         // Une fois les données envoyées par mail on remet les useStates à 0
@@ -101,7 +101,7 @@ const ContactForm = () => {
                     onChange={(e) => setName (e.target.value)} 
                     placeholder="nom*"
                     value={name}
-                    autoCapitalizeomplete="off"
+                    autoCapitalize="off"
                     />
                 <div className="email-content">
                     <label id="not-mail">Email non valide </label>
@@ -113,7 +113,7 @@ const ContactForm = () => {
                         onChange={(e) => setEmail (e.target.value)} 
                         placeholder="email*"
                         value={email}
-                        autoCapitalizeomplete="off"
+                        autoCapitalize="off"
                     />
                 </div>
 
@@ -124,7 +124,7 @@ const ContactForm = () => {
                     onChange={(e) => setMessage (e.target.value)} 
                     placeholder="Brève description de votre projet*"
                     value={message}
-                    autoCapitalizeomplete="off"
+                    autoCapitalize="off"
                     />
             </div>
             <input
