@@ -1587,6 +1587,7 @@ i{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #aModal {
@@ -1594,6 +1595,7 @@ i{
   padding: 1rem 3rem;
   color: var(--ultimate-Gray);
   text-transform: uppercase;
+  
 }
 
 .btnModal {
@@ -1601,7 +1603,7 @@ i{
   border: 1px solid rgb(245,223,77);
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
+  
 }
 
 .btnModal:hover {
@@ -1622,6 +1624,7 @@ i{
     transparent
   );
   transition: all 650ms;
+  
 }
 
 .btnModal:hover:before {
