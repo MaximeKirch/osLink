@@ -1185,6 +1185,11 @@ border-radius: 5px;
   padding: 0;
 }
 
+.projects .sort-container ul li {
+  width: 5rem;
+  text-align: center;
+}
+
 .projects .cancel {
   text-align: center;
   border: 2px var(--black) solid;
