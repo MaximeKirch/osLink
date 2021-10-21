@@ -8,6 +8,7 @@ import HeroBanner from'../components/HeroBanner';
 import Footer from '../components/Footer';
 import Faq from '../components/Faq';
 import ContactForm from '../components/ContactForm';
+import ProjectSlider from '../components/ProjectSlider';
 
 
 const Asso = () => {
@@ -58,6 +59,8 @@ const Asso = () => {
                                                 
                       </div>
                       <Body />
+
+                      <ProjectSlider/>
 
                       <ContactForm />
 
