@@ -13,34 +13,43 @@ const SearchModule = (props) => {
     return (
         <div className="searchModule">
 
+                <a href={project.url}>
 
-                <li className="searchCard">
-                    <a href={project.url}><img src={project.avatar} alt="avatar" /></a>
+                    <li className="searchCard">
+                    
+                        <img src={project.avatar} alt="avatar" />
 
-                    <div className="dataContainer">
+                        <div className="dataContainer">
 
-                        <div className="mainCard">
+                            <div className="mainCard">
 
-                            <ul>
+                                <ul>
 
-                                <li id="nameProject">{project.name}</li>
-                                <li>{project.author}</li>
-                                <li>{project.language}</li>
-                                <li id="descriptionProject">{project.description}</li>   
-                            </ul>
+                                    <li id="nameProject">{project.name}</li>
+                                    <li>{project.author}</li>
+                                    <li>{project.language}</li>
+                                    <li id="descriptionProject">{project.description}</li>   
+                            
+                                </ul>
 
+                            </div>
+
+                            <div className="footerCard">
+                            
+                                <ul>
+                                    <li className="starsProject"><img src={gitstars} id='starProject' alt='stars'/>{project.stars} stars</li>
+                                    <li className="forksProject"><img src={fork} id="forkProject" alt='fork'/>{project.forks}</li>
+
+                           
+                                </ul>
+                        
+                            </div>
+                    
                         </div>
 
-                        <div className="footerCard">
-                            <ul>
-                                <li className="starsProject"><img src={gitstars} id='starProject' alt='stars'/>{project.stars} stars</li>
-                                <li className="forksProject"><img src={fork} id="forkProject" alt='fork'/>{project.forks}</li>
+                    </li>
 
-                            </ul>
-                        </div>
-                    </div>
-
-                </li>
+                </a>
 
         </div>
 
