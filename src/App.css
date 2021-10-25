@@ -1,5 +1,6 @@
 /* INDEX OF CSS FILE */ 
 
+/* 0. General Settings */
 /* 1. Nav Component */
 /* 1.a Progress Bar */
 /* 2. Body Component */
@@ -21,6 +22,9 @@
 /* ZZ Compotest */
 
 
+/* -------------------------------------------------------------------------------------------------- */
+/* 0. General Settings */
+
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
 
 :root {
@@ -36,6 +40,85 @@
   --light-illuminating : rgb(253,247,210); /*#FDF7D2*/
   /*css filter generator https://codepen.io/sosuke/pen/Pjoqqp */
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: var(--secondary-font);
+} 
+
+
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: var(--primary-font);
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
+
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
+}
+
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -61,9 +144,9 @@
 }
 
 #title {
-  font-family: var(--secondary-font);
+
   font-weight: 700;
-  font-size: 32px;
+
   color: var(--ultimate-Gray);
 }
 
@@ -97,7 +180,7 @@ text-decoration: none;
   color: var(--lavender);
   height: 35px;
   width: 150px;
-  font-size: 18px;
+
   border:none;
   margin-right: 20px;
   transition: transform 500ms ease-in-out-back;
@@ -122,24 +205,6 @@ text-decoration: none;
     background-position: 500px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
-/* -------------------------------------------------------------------------------------------------- */
-
-/* 1.a ProgressBar le composant n'est pas fonctionnel actuellement*/
-/*.progressMainWrapper {
-  background-color: black;
-  height: 15px;
-  position : sticky;
-  top : 0;
-  left: 0;
-  z-index: 1;
-  width:100%;
-}
-
-.progressMainStyle {
-  height:15px;
-  background-color: green;
-}*/
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -168,45 +233,12 @@ text-decoration: none;
 } 
 
 .bodyTitle {
-  font-family: var(--secondary-font);
+
   font-weight: 300;
-  font-size: 48px;
+
   color:var(--third-color);
 }
 
-#Font1 {
-  width: 80%;
-  font-family:'Arvo';
-  font-weight: 700;
-  color:var(--lead-Crystal);
-}
-
-
-#Font2 {
-  width: 80%;
-  font-family:'Arvo';
-  font-weight: 400;
-  color:var(--ultimate-Gray);
-}
-
-#Font3 {
-  width: 80%;
-  font-family: 'Leto';
-  font-weight: 300;
-  color: var(--illuminating);
-}
-
-#Font4 {
-  width: 80%;
-  font-family: 'Leto';
-  font-weight: 400;
-}
-
-#Font5 {
-  width: 80%;
-  font-family: 'Leto';
-  font-weight: 700;
-}
 
 .bodyHr {
   width: 90%;
@@ -240,9 +272,7 @@ text-decoration: none;
   justify-items: start;
   z-index: 1;
   color: var(--lead-Crystal);
-  font-size: 76px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+
 }
 
 #separate {
@@ -401,7 +431,7 @@ input {
 
 .serviceContainer p {
   color: var(--ultimate-Gray);
-  font-family: var(--secondary-font);
+
  }
 
 .serviceInfos {
@@ -411,8 +441,8 @@ input {
 
 .serviceInfos p {
   color: var(--illuminating);
-  font-size: 24px;
-  font-family: var(--secondary-font);
+  
+
 }
 
 #phone {
@@ -424,9 +454,9 @@ input {
 .serviceTitle1 {
   width: 400px;
   color: var(--lavender);
-  font-family: var(--secondary-font);
-  font-size: 48px;
-  font-weight: 400;
+
+
+
   margin-bottom: -30px;
   text-align: left;
 }
@@ -434,9 +464,9 @@ input {
 .serviceTitle2 {
   width: 400px;
   color: var(--lavender);
-  font-family: var(--secondary-font);
-  font-size: 48px;
-  font-weight: 400;
+
+
+
   text-align: left;
  }
 
@@ -464,7 +494,7 @@ input {
 
 .icons p {
   color: var(--lavender);
-  font-size: 18px;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -491,8 +521,8 @@ input {
   width: auto;
   justify-content: center;
   color: var(--ultimate-Gray);
-  font-family: var(--secondary-font);
-  font-size: 24px;
+
+  
 }
 
 .nousDev {
@@ -504,7 +534,7 @@ input {
 .pNousDev {
 text-align: justify;
 width: 80%;
-font-family:'Arvo';
+
 font-weight: 400;
 }
 
@@ -546,22 +576,22 @@ font-weight: 400;
   .testimonialText {
     color: var(--ultimate-Gray);
     font: var(--secondary-font);
-    font-weight: 400;
+
     font-style: italic;
-    font-size: 24px;
+
   }
 
   .testimonialText::before {
     content:'"';
     color: var(--lavender);
-    font-size:32px;
+
     margin-right:2px;
   }
 
   .testimonialText::after {
     content:'"';
     color: var(--lavender);
-    font-size: 32px;
+
     margin-left:2px;
   }
 
@@ -576,7 +606,7 @@ font-weight: 400;
 
   .profileTestimonial p {
     color: var(--illuminating);
-    font-family: var(--secondary-font);
+
     font-weight: 300;
   }
 
@@ -601,7 +631,7 @@ font-weight: 400;
     opacity: 0.9;
     height: 35px;
     width: 150px;
-    font-size: 16px;
+
     border:none;
     margin-right: 20px;
     transition: transform 500ms ease-in-out-back;
@@ -658,7 +688,7 @@ font-weight: 400;
     width: auto;
     flex-wrap: wrap;
     align-items: center;
-    font-family: var(--secondary-font);
+
     color: var(--lavender);
   }
 
@@ -675,7 +705,7 @@ font-weight: 400;
   }
 
   #cardName {
-    font-size: 32px;
+
     margin-bottom: -10px;
     text-align: center;
     color:var(--illuminating);
@@ -712,7 +742,7 @@ font-weight: 400;
     margin-bottom: 10px;
     height: 35px;
     width: 150px;
-    font-size: 18px;
+
     border:none;
     margin-right: 20px;
     transition: transform 500ms ease-in-out-back;
@@ -769,7 +799,7 @@ font-weight: 400;
 
 #search{
   margin-bottom: 2rem;
-	font-family: inherit;
+
 	border-radius: 50px;
 	padding: .5rem;
   width: 500px;
@@ -860,8 +890,8 @@ input:focus {
 #projectTitle {
   display: flex;
   justify-content: center;
-  font-family: var(--secondary-font);
-  font-size: 32px;
+
+
   color: var(--illuminating);
 }
 
@@ -887,8 +917,8 @@ input:focus {
 
 .projectSelect h3 {
   text-align: center;
-  font-family: var(--secondary-font); 
-  font-size: 24px;
+ 
+
   color: var(--illuminating);
 }
 
@@ -930,7 +960,7 @@ input:focus {
   color: var(--ultimate-Gray);
   margin-top: 20px;
     text-align: center;
-  font-size: x-large;
+
   font-weight: bold;
 }
 
@@ -945,7 +975,7 @@ cursor: pointer;
 }
 
 .faqAnswer{
-  font-family: var(--secondary-font);
+
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--ultimate-Gray);
@@ -990,164 +1020,7 @@ border-radius: 5px;
 
 /* 13.Modal Window */
 
-/* .modal-window {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  width:100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
-}
 
-.modal-wrapper {
-  overflow: auto;
-  background-color: var(--light-illuminating);
-  width: 600px;
-  max-width: calc(100vw -20px);
-  max-height: calc(100vh -20px);
-  padding: 20px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  z-index:1;
-}
-
-.h2Modal-wrapper {
-  text-align: center;
-  font-family: var(--primary-font);
-  color: var(--ultimate-Gray);
-} */
-
-
-/* .choice-link {
-  text-align: center;
-  width:40%;
-  height: 50%;
-  border: 1px var(--black) solid;
-  border-radius: 2px;
-  padding:10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  } */
-
-/*   .modalContainer{
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: var(--secondary-font);
-  }
-
-.ulChoice{
-  padding: 0;
-    list-style-type: none;
-}
-
-.liChoice{
-  font-size: 25px;
-    width: 8em;
-    height: 2em;
-    text-align: center;
-    font-family: var(--secondary-font);
-    position: relative;
-    transition: 0.5s;
-    margin: 0.8em;
-}
-
-
-
-#liChoice1::before,
-#liChoice1::after {
-    content: '';
-    position: absolute;
-    width: 0.6em;
-    height: 0.6em;
-    background-color: var(--ultimate-Gray);
-    color: var(--illuminating);
-    border-radius: 50%;
-    transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
-    top: calc(50%  / 2);
-}
-
-#liChoice1::before {left: 0; z-index: -1;}
-#liChoice1::after {right: 0; z-index: -2;}
-
-
-
-
-
-#liChoice1:hover::before,
-#liChoice1:hover::after {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    background-color: rgb(147,149,151);
-    
-}
-
-#liChoice1:hover::before {
-    top: 0;
-}
-
-#liChoice1:hover::after {
-    right: -0.4em;
-    filter: brightness(0.8);
-    
-}
-
-/* #devChoice{
-  color:var(--ultimate-Gray);
-} */
-
-/* #devChoice:hover {
-  color: rgb(245,223,77);
-}
-
-#liChoice2::before,
-#liChoice2::after {
-    content: '';
-    position: absolute;
-    width: 0.6em;
-    height: 0.6em;
-    background-color: var(--illuminating);
-    border-radius: 50%;
-    transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
-    top: calc(50%  / 2);
-}
-
-#liChoice2::before {left: 0; z-index: -1;}
-#liChoice2::after {right: 0; z-index: -2;}
-
-#liChoice2:hover {
-    color:rgb(147,149,151)!important;
-}
-
-#liChoice2:hover::before,
-#liChoice2:hover::after {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    background-color: rgb(245,223,77);
-}
-
-#liChoice2:hover::before {
-    top: 0;
-}
-
-#liChoice2:hover::after {
-    right: -0.4em;
-    filter: brightness(0.8);
-}
-
-#assoChoice{
-  color:var(--ultimate-Gray);
-}
-
-#assoChoice:hover {
-    color: var(--ultimate-Gray);
-}*/
  
   .close2{
     position: relative;
@@ -1257,7 +1130,7 @@ border-radius: 5px;
   width: auto;
   flex-wrap: wrap;
   align-items: center;
-  font-family: var(--secondary-font);
+
   color: var(--lavender);
 }
 
@@ -1274,7 +1147,7 @@ border-radius: 5px;
 }
 
 .searchModule #nameProject {
-  font-size: 32px;
+  font-size: 1.3rem; /* a changer en h? */
   margin-bottom: -10px;
   text-align: center;
   color:var(--illuminating);
@@ -1349,6 +1222,10 @@ border-radius: 5px;
   padding: 0;
 }
 
+.footerList a{
+  color: var(--ultimate-Gray)
+}
+
 .col{
   margin: 20px;
 }
@@ -1371,13 +1248,15 @@ i{
 
 .footerList{
   line-height: 2;
-  font-family: var(--secondary-font);
+
 }
 
 .h3Footer{
   font-family: var (--primary-font);
   text-align: center;
 }
+
+
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -1396,8 +1275,7 @@ i{
 
 #partnerTitle {
     text-align: center;
-    font-family: var(--secondary-font);
-    font-size: 36px;
+
     color: var(--lavender);
     margin-bottom: 80px;
 }
@@ -1430,11 +1308,6 @@ i{
   color:var(--illuminating);
   
 }
-
-.partnerInfo h3 {
-  font-size: 32px;
-}
-
 
 #WCS {
   height: 100px;
@@ -1565,7 +1438,6 @@ i{
 #aprojectButton2 span {
   position: relative;
   color: var(--ultimate-Gray);
-  font-size: 1rem;
   text-align: center;
   font-family: Arial;
   letter-spacing: 4px;
@@ -1674,7 +1546,7 @@ i{
 }
 
 #aModal {
-  font-size: 1.5rem;
+
   padding: 1rem 3rem;
   color: var(--ultimate-Gray);
   text-transform: uppercase;
