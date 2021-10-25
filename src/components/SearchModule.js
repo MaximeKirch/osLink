@@ -25,9 +25,9 @@ const SearchModule = (props) => {
 
                                 <ul>
 
-                                    <li id="nameProject">{project.name}</li>
-                                    <li>{project.author}</li>
-                                    <li>{project.language}</li>
+                                    <li id="nameProject"><h6>{project.name}</h6></li>
+                                    <li id="AuteurProject">{project.author}</li>
+                                    <li id="languageProject">{project.language}</li>
                                     <li id="descriptionProject">{project.description}</li>   
                             
                                 </ul>

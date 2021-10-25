@@ -48,7 +48,7 @@ function Footer() {
             </div>
                      
         </div>
-        <hr className="hrFooter"></hr>
+        
         <div className="footerNoRow">
             <p className="lastFooter">
             &copy;{new Date().getFullYear()} FAJEMA INC</p>
