@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Twitter from './Twitter'
+
 
 
 function NousDev() {
@@ -33,7 +33,7 @@ function NousDev() {
 
             </div>
 
-            <Twitter />
+           
 
         </div>
 

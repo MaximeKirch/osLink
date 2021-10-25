@@ -4,7 +4,7 @@ import fork from '../assets/fork.png'
 import star from '../assets/star.png'
 import gitstars from '../assets/gitstars.png'
 import { render } from '@testing-library/react'
-
+import Twitter from './Twitter'
 
 
 
@@ -76,6 +76,7 @@ function GithubTrends() {
                 </div>
     
             </div>
+            <Twitter/>
 
         </div>
     );

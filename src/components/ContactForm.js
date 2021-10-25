@@ -90,55 +90,57 @@ const ContactForm = () => {
 
     //Ici on code le formulaire de dépot de projet
     return (
-        <form className="contact-form">
-            <h2>Déposez votre projet</h2>
-            <div className="form-content">
-                <input 
-                    type="text"
-                    id="name"
-                    name="name"
-                    //On récupère ce qui est tapé par l'utilisateur dans la variable
-                    onChange={(e) => setName (e.target.value)} 
-                    placeholder="nom*"
-                    value={name}
-                    autoCapitalize="off"
-                    />
-                <div className="email-content">
-                    <label id="not-mail">Email non valide </label>
+        <div className="contactContainer">
+            <form className="contact-form">
+                <h2>Déposez votre projet</h2>
+                <div className="form-content">
                     <input 
                         type="text"
-                        id="email"
-                        name="email"
+                        id="name"
+                        name="name"
                         //On récupère ce qui est tapé par l'utilisateur dans la variable
-                        onChange={(e) => setEmail (e.target.value)} 
-                        placeholder="email*"
-                        value={email}
+                        onChange={(e) => setName (e.target.value)} 
+                        placeholder="nom*"
+                        value={name}
                         autoCapitalize="off"
-                    />
+                        />
+                    <div className="email-content">
+                        <label id="not-mail">Email non valide </label>
+                        <input 
+                            type="text"
+                            id="email"
+                            name="email"
+                            //On récupère ce qui est tapé par l'utilisateur dans la variable
+                            onChange={(e) => setEmail (e.target.value)} 
+                            placeholder="email*"
+                            value={email}
+                            autoCapitalize="off"
+                        />
+                    </div>
+
+                    <textarea 
+                        id="message"
+                        name="message"
+                        //On récupère ce qui est tapé par l'utilisateur dans la variable
+                        onChange={(e) => setMessage (e.target.value)} 
+                        placeholder="Brève description de votre projet*"
+                        value={message}
+                        autoCapitalize="off"
+                        />
                 </div>
+                <input
+                    className="button"
+                    type="button"
+                    value="Déposer le projet"
+                    //Lancement de la fonction au clic sur le bouton
+                    onClick={handleSubmit}
+                />
 
-                <textarea 
-                    id="message"
-                    name="message"
-                    //On récupère ce qui est tapé par l'utilisateur dans la variable
-                    onChange={(e) => setMessage (e.target.value)} 
-                    placeholder="Brève description de votre projet*"
-                    value={message}
-                    autoCapitalize="off"
-                    />
-            </div>
-            <input
-                className="button"
-                type="button"
-                value="Déposer le projet"
-                //Lancement de la fonction au clic sur le bouton
-                onClick={handleSubmit}
-            />
+                <div className="form-message"></div>
 
-            <div className="form-message"></div>
-
-        
-        </form>
+            
+            </form>
+        </div>
     );
 }
 

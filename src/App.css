@@ -39,6 +39,8 @@
   --placid-Blue:rgb(140,172,211); /*#8CACD3*/
   --light-illuminating : rgb(253,247,210); /*#FDF7D2*/
   /*css filter generator https://codepen.io/sosuke/pen/Pjoqqp */
+
+  /* 1 rem = 16px */
 }
 
 body {
@@ -154,9 +156,9 @@ a {
 #logo{
   height: 50px;
   width: 50px;
-  margin-left: 15px;
-  margin-right: 2px;
-  margin-top: 15px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 #submit {
@@ -208,7 +210,7 @@ a {
 } 
 
 .Body {
-  margin-top: 100px;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   flex-wrap:nowrap;
@@ -255,7 +257,7 @@ a {
 }
 
 #heroText {
-  margin-top: 100px;
+  margin-top: 6rem;
   position: absolute;
   justify-items: start;
   z-index: 1;
@@ -266,13 +268,18 @@ a {
   height: 0.2px;
   background-color: rgba(0,0,0,0.9);
   width: 90%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 /* 4. ContactForm Component */
 
+.contactContainer{
+  display:flex;
+  justify-content: center;
+
+}
+
 .contact-form {
-  margin: 10px;
   max-width: 30%;
   background: var(--ultimate-Gray);
   border: 1px solid var(--illuminating);
@@ -280,7 +287,7 @@ a {
 }
 
 .contact-form h2 {
-  margin-top: 35px;
+  margin-top: 2rem;
   text-align: center;
   color: var(--illuminating);
 }
@@ -367,7 +374,7 @@ input {
 
 .button {
   font-size: 1.3rem;
-  margin-top: 15px;
+  margin-top: 1rem;
   color: var(--illuminating);
   border: none;
   cursor: pointer;
@@ -384,7 +391,7 @@ input {
 }
 
 .form-message {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   padding: 12px;
   opacity: 0;
   transition: 0.2s ease;
@@ -401,8 +408,7 @@ input {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-right: 20px;
- }
+}
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -411,9 +417,9 @@ input {
 .serviceContainer {
   display: flex;
   background-color: rgba(175,164,206,0.1);
-  width: 80%;
+  width: 60%;
+  margin-left: 20%;
   border-radius: 25px;
-  margin-left: 10%;
   border:rgba(245,223,77,0.3) 0.5px solid
 }
 
@@ -422,8 +428,8 @@ input {
 }
 
 .serviceInfos {
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 .serviceInfos p {
@@ -431,15 +437,15 @@ input {
 }
 
 #phone {
-  height: 700px;
-  width: 500px;
-  margin-top: 20px;
+  
+  width: 25%;
+  height: auto;
+  margin-top: 1.5rem;
 }
 
 .serviceTitle1 {
   width: 400px;
   color: var(--lavender);
-  margin-bottom: -30px;
   text-align: left;
 }
 
@@ -465,7 +471,7 @@ input {
   height: 150px;
   width: 150px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 0.25rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -478,7 +484,7 @@ input {
 }
 
 .serviceImg {
-  margin-top: 10px;
+  margin-top: 0.5rem;
   height: 48px;
   width: 48px;
 }
@@ -529,7 +535,7 @@ width: 80%;
 
 #testimonialHr {
   width: 80%;
-  margin-top: px;
+  margin: 1rem;
   height: 1px;
   opacity:0.2;
   background-color: var(--illuminating);
@@ -548,8 +554,8 @@ width: 80%;
   flex-wrap: wrap;
   border-top: 0.5px solid rgba(245,223,77,0.3);
   border-bottom: 0.5px solid rgba(245,223,77,0.3);
-  margin-top: 100px;
-  padding-bottom: 10px;
+  margin-top: 6.25rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -574,7 +580,7 @@ width: 80%;
 .profileTestimonial {
   display: flex;
   width: 250px;
-  padding: 10px 0px;
+  padding: 0.5rem 0;
   border-radius: 10px;
   justify-content: space-around;
   background: rgba(175,164,206,0.4);
@@ -596,7 +602,7 @@ width: 80%;
 }
 
 #commentBtn {
-  margin-top: 15px;
+  margin-top: 1rem;
   border-radius: 2px;
   display: inline-flex;
   justify-content: center;
@@ -607,7 +613,7 @@ width: 80%;
   height: 35px;
   width: 150px;
   border:none;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   transition: transform 500ms ease-in-out-back;
   background-position : 800ms ease-in-out-bac; 
   box-shadow: 500ms linear;
@@ -642,7 +648,7 @@ width: 80%;
   height: auto;
   align-content: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
 }
   
@@ -653,7 +659,7 @@ width: 80%;
   flex-wrap: wrap;
   width: 400px;
   height: auto;
-  margin: 0px 20px;
+  margin: 0 1.25rem;
   border-radius: 25px;
   border: 2px solid rgba(245,223,77, 0.3);
 }
@@ -671,22 +677,20 @@ width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
  }
 
 #cardDescription {
-  margin: 10px 20px;
+  margin: 0.625rem 1.25rem;
   font-weight: 700;
 }
 
 #cardName {
-  margin-bottom: -10px;
   text-align: center;
   color:var(--illuminating);
 }
 
 #cardUrl {
-  margin-top: 10px;
   color: var(--lavender);
   text-align: center;
 }
@@ -713,11 +717,9 @@ width: 80%;
   background-color: var(--illuminating);
   color: var(--lavender);
   opacity: 1;
-  margin-bottom: 10px;
   height: 35px;
   width: 150px;
   border:none;
-  margin-right: 20px;
   transition: transform 500ms ease-in-out-back;
   background-position : 800ms ease-in-out-bac; 
   box-shadow: 500ms linear;
@@ -725,6 +727,7 @@ width: 80%;
   background-position: -200px center;
   background-repeat: no-repeat;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-bottom: 1rem;
 }
   
 #randomBtn:hover{
@@ -744,21 +747,20 @@ width: 80%;
 #githubAvatar {
   width: 80px;
   height: 80px;
-  margin-top: 10px;
-  margin-bottom: -10px;
+  margin: 1rem ;
   border-radius: 50px;
 }
 
 #star {
   width: 20px;
   height: auto;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 
 #fork {
   width: 20px;
   height: auto;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 
 
@@ -800,7 +802,7 @@ input:focus {
 	align-items: center;
 	padding: 0.3rem;
   width: 380px;
-  margin: .3rem auto;
+  margin: 0.3rem auto;
   color:var(--ultimate-Gray);
 }
 
@@ -894,7 +896,7 @@ input:focus {
   width: 30%;
   margin: auto;
   font-family: var(--primary-font);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .projectSelect textarea {
@@ -907,7 +909,7 @@ input:focus {
 
 .Modal button {
   display: flex;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   align-self: center;
 } 
 
@@ -926,7 +928,7 @@ input:focus {
 .h3Faq{
   font-family: var(--primary-font);
   color: var(--ultimate-Gray);
-  margin-top: 20px;
+  margin-top: 1.25rem;
   text-align: center;
   font-weight: bold;
 }
@@ -950,7 +952,7 @@ cursor: pointer;
 }
 
 .detailsFaqCont{
-  margin: 10px;
+  margin: 0.5rem;
 }
 
 details[open] > summary {
@@ -1004,11 +1006,11 @@ animation: fade 1s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px;
+  margin: 2rem;
 }
 
 .projects .sort-container {
-  margin: 10px 0;
+  margin: 0.5rem 0;
 }
 
 .projects .sort-container ul {
@@ -1048,7 +1050,7 @@ animation: fade 1s ease-in-out;
   width: 300px;
   height: 400px;
   position: relative;
-  margin: 1px;
+  margin: 1rem;
   box-shadow: 0 0 2px rgba(51,51,51, 0.25);
   transition: 0.3s;
   overflow: hidden;
@@ -1057,7 +1059,7 @@ animation: fade 1s ease-in-out;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 20px;
+  margin: 0 1.25rem;
   border-radius: 25px;
   border: 2px solid rgba(245,223,77, 0.3);
 }
@@ -1068,21 +1070,21 @@ animation: fade 1s ease-in-out;
 
 .searchModule li {
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .searchModule a {
   width: 10%;
   height: 10%;
   padding: 5px;
-  margin-bottom: 40px;;
+  margin-bottom: 2rem;;
 }
 
 .searchCard img {
   width: 80px;
   height: 80px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 50px;
 }
 
@@ -1092,7 +1094,6 @@ animation: fade 1s ease-in-out;
   width: auto;
   flex-wrap: wrap;
   align-items: center;
-
   color: var(--lavender);
 }
 
@@ -1104,13 +1105,12 @@ animation: fade 1s ease-in-out;
 }
 
 .searchModule #descriptionProject {
-  margin: 10px 20px;
+  margin: 1rem;
   font-weight: 700;
 }
 
 .searchModule #nameProject {
   font-size: 1.3rem; /* a changer en h? */
-  margin-bottom: -10px;
   text-align: center;
   color:var(--illuminating);
 }
@@ -1132,13 +1132,13 @@ animation: fade 1s ease-in-out;
 #starProject {
   width: 20px;
   height: auto;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 
 #forkProject {
   width: 20px;
   height: auto;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -1171,7 +1171,7 @@ animation: fade 1s ease-in-out;
 
 .lastFooter{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .lastFooter a{
@@ -1189,7 +1189,7 @@ animation: fade 1s ease-in-out;
 }
 
 .col{
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .hrFooter{
@@ -1229,12 +1229,13 @@ i{
   border-radius: 25px;
   border: 1px solid var(--illuminating);
   margin-left: 2%;
+  padding: 1rem;
 }
 
 #partnerTitle {
   text-align: center;
   color: var(--lavender);
-  margin-bottom: 80px;
+  margin-bottom: 2rem;
 }
 
 .partnerMain {
@@ -1378,13 +1379,14 @@ i{
   width: 100px;
   overflow: hidden;
   border-radius: 40px;
+  line-height: 1 !important;
 }
 
 #aprojectButton2 span {
   position: relative;
   color: var(--ultimate-Gray);
   text-align: center;
-  font-family: Arial;
+  font-family: var(--secondary-font);
   letter-spacing: 4px;
   z-index: 1;
 }
