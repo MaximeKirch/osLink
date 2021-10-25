@@ -18,7 +18,7 @@ function Testimonials() {
             
 
             <div className='profileTestimonial'>
-                <img id="avatar" src={Man}/>
+                <img id="avatar" src={Man} alt="avatar"/>
                 <p>John Doe, DESIGNMODO</p>
             </div>
 
