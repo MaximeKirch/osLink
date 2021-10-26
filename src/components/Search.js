@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import SearchModule2 from './SearchModule2';
+import SearchModule from './SearchModule';
 
 const Search = () => {
 
@@ -80,7 +80,7 @@ const Search = () => {
             .filter((project)=> project.language.includes(selectedRadio))
             //Ici on map chaque projet
             .map((project) => (
-            <SearchModule2 project={project} key={project.name}/>
+            <SearchModule project={project} key={project.name}/>
             ))}
         </ul>
     </div>

@@ -690,7 +690,7 @@ width: 80%;
   height: auto;
   margin: 1.25rem;
   border-radius: 25px;
-  border: 2px solid rgba(245,223,77, 0.3);
+  border: 2px solid var(--illuminating)
 }
 
 .cardBody {
@@ -1162,29 +1162,40 @@ animation: fade 1s ease-in-out;
 /* 15.SearchModule */
 
 .searchCard {
-  width: 300px;
-  height: 400px;
-  position: relative;
-  margin: 1rem;
-  box-shadow: 0 0 2px rgba(51,51,51, 0.25);
-  transition: 0.3s;
-  overflow: hidden;
-  border-radius: 25px;
   background-color: rgba(175,164,206,0.1);
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  width: 330px;
+  height: 560px;
+  /* position: relative; */
+  margin: 1.25rem;
+  /* box-shadow: 0 0 2px rgba(51,51,51, 0.25); */
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 25px;
   margin: 0 1.25rem;
   border-radius: 25px;
-  border: 2px solid rgba(245,223,77, 0.3);
+  border: 2px solid var(--illuminating)
 }
 
 .searchCard:hover {
-  transform: scale(1.10);
+  box-shadow: 1px 1px 25px 10px rgba(245,223,77, 0.4);
 }
+
+.dataContainer{
+  width: 100%;
+}
+
+/* .searchCard:hover {
+  transform: scale(1.10);
+} */
+
+
 
 .searchModule li {
   list-style-type: none;
+  
   margin: 1rem;
 }
 
@@ -1196,12 +1207,12 @@ animation: fade 1s ease-in-out;
 }
 
 .searchCard img {
-  width: 80px;
-  height: 80px;
-  margin-top: 0.5rem;
+  width: 120px;
+  height: 120px;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
-  border-radius: 50px;
-}
+  border-radius: 60px;
+} 
 
 .mainCard {
   display: flex;
@@ -1212,11 +1223,18 @@ animation: fade 1s ease-in-out;
   color: var(--lavender);
 }
 
+#AutorProject{
+  text-transform: capitalize;
+}
+
 .footerCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  align-content: flex-end;
+  height: 100px;
+  color: var(--illuminating);
+  
 }
 
 .searchModule #descriptionProject {
@@ -1242,24 +1260,40 @@ animation: fade 1s ease-in-out;
   color: var(--illuminating);
 }
 
-.searchModule #starsProject {
+/* .searchModule #starsProject {
   display: inline-flex;
   align-content: center;
   font-weight: 700;
   color: var(--illuminating);
-}
+} */
+
 
 #starProject {
-  width: 20px;
-  height: auto;
+  width: 25px;
+  height: 25px;
   margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 #forkProject {
-  width: 20px;
-  height: auto;
+  width: 25px;
+  height: 25px;
   margin-right: 0.5rem;
 }
+
+.starsProject{
+  display:flex;
+  align-items: center;
+}
+
+.forksProject{
+  display:flex;
+  align-items: center;
+
+}
+
+
+
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */
