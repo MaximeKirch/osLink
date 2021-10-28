@@ -1,19 +1,8 @@
-/*#toggle {
-    height: 2.5rem;
-    padding: 0.625rem 1rem;
-    border: 0;
-    background-color: var(--theme-color);
-    color: #FFF;
-    cursor: pointer;
 
-    &:focus {
-        outline: 0;
-    }
-}*/
 
 #toggle{
     position: relative;
-    display: block;
+    margin-right: 0;
     width: 80px;
     height: 40px;
     border-radius: 40px;

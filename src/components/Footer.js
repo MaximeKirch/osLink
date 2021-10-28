@@ -26,11 +26,11 @@ function Footer() {
                     <h3 className="h3Footer">Créé par</h3>
                     <ul className="footerList">
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
-                            </img> Fabrice HUET</li>
+                            </img><a href="https://www.linkedin.com/in/fabrice-huet/"> Fabrice HUET</a></li>
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
-                            </img> Jefferson GUEGAN</li>
+                            </img><a href="https://www.linkedin.com/in/jefferson-guegan-403753217/"> Jefferson GUEGAN</a></li>
                         <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
-                            </img> Maxime KIRCH</li>
+                            </img><a href="https://www.linkedin.com/in/maxime-kirch-467443135/"> Maxime KIRCH</a></li>
                     </ul>
                 </div>
                 {/*colonne3*/}
@@ -48,7 +48,7 @@ function Footer() {
             </div>
                      
         </div>
-        <hr className="hrFooter"></hr>
+        
         <div className="footerNoRow">
             <p className="lastFooter">
             &copy;{new Date().getFullYear()} FAJEMA INC</p>

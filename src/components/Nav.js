@@ -1,10 +1,9 @@
 import React from 'react'
 import logo from '../assets/connection.png'
-import ProjectButton from './ProjectButton'
+import ProjectButton2 from './ProjectButton2'
 import '../App.css'
 import { NavLink } from 'react-router-dom'
-import Compotest from './Compotest'
-import Dlbutton from './Dlbutton'
+
 
 
 
@@ -23,8 +22,14 @@ function Nav() {
                  
             </NavLink>
         
+<<<<<<< HEAD
              <Dlbutton />
         <ProjectButton />
+=======
+             
+            
+        <ProjectButton2 />
+>>>>>>> 1aa8a30030f35f1f8df439eb55dc070c81978886
         
         </div>
 

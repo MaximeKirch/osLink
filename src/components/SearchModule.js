@@ -13,34 +13,45 @@ const SearchModule = (props) => {
     return (
         <div className="searchModule">
 
+                <a href={project.url}>
 
-                <li className="searchCard">
-                    <a href={project.url}><img src={project.avatar} alt="avatar" /></a>
+                    <div className="searchCard">
+                    
+                        <img src={project.avatar} alt="avatar" />
 
-                    <div className="dataContainer">
+                        <div className="dataContainer">
 
-                        <div className="mainCard">
+                            <div className="mainCard">
 
-                            <ul>
+                               
 
-                                <li id="nameProject">{project.name}</li>
-                                <li>{project.author}</li>
-                                <li>{project.language}</li>
-                                <li id="descriptionProject">{project.description}</li>   
-                            </ul>
+                                    <div id="nameProject"><h6>{project.name}</h6></div>
+                                    <div id="AuteurProject">{project.author}</div>
+                                    <div id="languageProject">{project.language}</div>
+                                    <div id="descriptionProject">{project.description}</div>   
+                            
+                               
 
+                            </div>
+
+                            
+                    
                         </div>
 
                         <div className="footerCard">
-                            <ul>
-                                <li className="starsProject"><img src={gitstars} id='starProject' alt='stars'/>{project.stars} stars</li>
-                                <li className="forksProject"><img src={fork} id="forkProject" alt='fork'/>{project.forks}</li>
+                            
+                               
+                                    <div className="starsProject"><img src={gitstars} id='starProject' alt='stars'/>{project.stars} stars</div>
+                                    <div className="forksProject"><img src={fork} id="forkProject" alt='fork'/>{project.forks} forks</div>
 
-                            </ul>
-                        </div>
+                           
+                                
+                        
+                            </div>
+
                     </div>
 
-                </li>
+                </a>
 
         </div>
 

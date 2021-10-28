@@ -4,7 +4,7 @@ import fork from '../assets/fork.png'
 import star from '../assets/star.png'
 import gitstars from '../assets/gitstars.png'
 import { render } from '@testing-library/react'
-
+import Twitter from './Twitter'
 
 
 
@@ -57,7 +57,7 @@ function GithubTrends() {
            
 
                 <div className='cardBody'>
-                    <img id='githubAvatar' src={avatar}/>
+                    <img id='githubAvatar' src={avatar} alt="random project"/>
                     <h3 id="cardName">{name}</h3>
                     <h4 id="cardAuthor">{author}</h4>
                     <p id="cardLanguage">Developped in {language}</p>
@@ -76,6 +76,7 @@ function GithubTrends() {
                 </div>
     
             </div>
+            <Twitter/>
 
         </div>
     );

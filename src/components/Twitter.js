@@ -8,7 +8,7 @@ function Twitter() {
             <TwitterTimelineEmbed
             sourceType='Profile'
             screenName='TwitterOSS'
-            options={{height: 480, width: 320}} />
+            options={{height: 584, width: 400}} />
         </div>
     );
 }
