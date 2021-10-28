@@ -24,7 +24,6 @@ function Nav() {
             </NavLink>
         
              <Dlbutton />
-            <Compotest />
         <ProjectButton />
         
         </div>

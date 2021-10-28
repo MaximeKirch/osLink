@@ -19,6 +19,8 @@
 /* Z.Footer */
 /* ZZ Compotest */
 
+/* Responsive Design */ 
+
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400;700&display=swap');
 
@@ -1381,3 +1383,61 @@ i{
   color: aqua;
 }
 
+
+/* --------------------------------------------------------------------------------------------------- */ 
+/* ZZ. Responsive Design */ 
+
+
+@media screen and (max-width: 768px)  /*Ipad, Tablettes */{
+
+
+  /* Nav Component */
+
+  .navBar {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+
+  /* HeroBanner */ 
+
+  .backgroundImage  {
+    
+    
+  }
+
+  #heroText {
+  font-size: 12px;
+  justify-content: center;
+  align-content: center;
+  }
+
+
+  /* Services container */
+
+    .Service{
+      display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 390px) {
+
+  /* Nav Component */ 
+
+  .navBar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* HeroBanner */ 
+
+  #heroText {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: blue;
+  }
+
+}

@@ -10,7 +10,7 @@ import '../App.css'
 
 function Service() {
     return(
-        <> 
+        <div className="Service"> 
             <div className='serviceContainer'>
                 <img id="phone" alt="iphone" src={iphone} /> 
                
@@ -60,7 +60,7 @@ function Service() {
         
         
         
-        </>
+        </div>
     )
 }
 
