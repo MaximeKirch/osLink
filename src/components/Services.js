@@ -15,10 +15,10 @@ function Service() {
                 <img id="phone" alt="iphone" src={iphone} /> 
                
                 <div className='serviceInfos'>
-                     <h2 className="serviceTitle1">To Be Proud by</h2>
-                     <h2 className="serviceTitle2">Your Application</h2>
+                     <h2 className="serviceTitle1">Soyez fiers</h2>
+                     <h2 className="serviceTitle2">de vos applications</h2>
 
-                    <p className="serviceP">Try to generate more interesting stuff for your visitors, with help of our developers.</p>
+                    <p className="serviceP">Générez plus de contenu, avec l'aide de nos développeurs.</p>
 
                     <div className="serviceIcons">
 
@@ -29,27 +29,27 @@ function Service() {
 
                         <div className='icons'>
                             { <img className='serviceImg'  src={settings} /> }
-                            <p>Free Google Fonts</p>
+                            <p>Google Fonts</p>
                         </div>
 
                         <div className='icons'>
                             { <img className='serviceImg' src={video} /> }
-                            <p>Ready To Present</p>
+                            <p>Prêt à utiliser</p>
                         </div>
 
                         <div className='icons'>
                             { <img className='serviceImg'  src={layers} /> }
-                            <p>Crops and Layers</p>
+                            <p>Designs et maquettes</p>
                         </div>
 
                         <div className='icons'>
                             { <img className='serviceImg'  src={comps} /> }
-                            <p id='powerful'>Powerful Components</p>
+                            <p id='powerful'>Composants puissants</p>
                         </div>
 
                         <div className='icons'>
                             { <img className='serviceImg'  src={man} /> }
-                            <p>Frameworks Friendly</p>
+                            <p>Compatible Frameworks</p>
                         </div>
                     </div>
                 </div>

@@ -49,29 +49,29 @@ export default function Modal() {
         <div className='Modal'>
             
         
-        <h2 id="projectTitle">Submit Project</h2>
+        <h2 id="projectTitle">Déposer un projet</h2>
 
         <form id='projectForm'>
             <input type='text' 
             name='name'  
-            placeholder='Your name*' 
+            placeholder='Votre nom' 
             value={name}
             onChange={(e) => setName (e.target.value)}></input>
             <input type='text' 
             name='email'  
-            placeholder='your@mail.fr*'
+            placeholder='votre@mail.fr'
             value={email}
             onChange={(e) => setEmail (e.target.value)}></input>
             <input type='text' 
             name='url' 
-            placeholder='GitHub Repository URL*'
+            placeholder='GitHub Repository URL'
             value={url}
             onChange={(e) => setUrl (e.target.value)}></input>
             
             <div className='projectSelect'>
-                <h3>Your project :</h3>
+                <h3>Votre projet :</h3>
                 <select>
-                    <option> Choose an option</option>
+                    <option> Choisir une option</option>
                     <option>------Front End------</option>
                     <option>Website</option>
                     <option>Web App</option>
@@ -79,11 +79,11 @@ export default function Modal() {
                     <option>------Back End-------</option>
                     <option>Integrate API</option>
                     <option>Server maintenance</option>
-                    <option>------Other------</option>
-                    <option>Other...</option>
+                    <option>------Autre------</option>
+                    <option>Autre...</option>
                 </select>
                 <textarea type='text' 
-                placeholder='Describe your project...*' 
+                placeholder='Decrivez votre projet...' 
                 name='message' 
                 value={message}
                 onChange={(e) => setMessage (e.target.value)}></textarea>
@@ -94,7 +94,7 @@ export default function Modal() {
             <button 
             type='submit' 
             id='submitBtn'
-            onClick={handleSubmit}>Submit</button>
+            onClick={handleSubmit}>Envoyer</button>
         
         </form>
 

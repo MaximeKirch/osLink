@@ -14,12 +14,12 @@ return isOpen ? (
         <>
         
         <Modal />
-        <button id="close" onClick= {() => setIsOpen(false)}>Close X</button>
+        <button id="close" onClick= {() => setIsOpen(false)}>Fermer X</button>
         </>
 ) : (
         <div id="aprojectButton2Cont">
         <a id="aprojectButton2" href="#">
-        <span id="projectButton2" onClick = {() => setIsOpen(true)}>Submit Project</span>
+        <span id="projectButton2" onClick = {() => setIsOpen(true)}>Submit project</span>
         <div class="liquid"></div>
         </a>
         </div>

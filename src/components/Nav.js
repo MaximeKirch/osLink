@@ -22,14 +22,9 @@ function Nav() {
                  
             </NavLink>
         
-<<<<<<< HEAD
-             <Dlbutton />
-        <ProjectButton />
-=======
              
             
         <ProjectButton2 />
->>>>>>> 1aa8a30030f35f1f8df439eb55dc070c81978886
         
         </div>
 

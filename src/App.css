@@ -153,6 +153,7 @@ ul{
 #title {
   font-weight: 700;
   color: var(--ultimate-Gray);
+  align-self: center;
 }
 
 .a1Nav {
@@ -164,7 +165,7 @@ ul{
   width: 50px;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 1rem;
+  justify-self: center;
 }
 
 #submit {
@@ -184,8 +185,8 @@ ul{
   border:none;
   margin-right: 20px;
   transition: transform 500ms ease-in-out-back;
-   background-position : 800ms ease-in-out-bac; 
-   box-shadow: 500ms linear;
+  background-position : 800ms ease-in-out-bac; 
+  box-shadow: 500ms linear;
   background-size: contain;
   background-position: -200px center;
   background-repeat: no-repeat;
@@ -422,7 +423,6 @@ input {
 
 .timeline-Header{
   border-radius: 25px;
-  background-color: red;
 }
 
 
@@ -450,7 +450,7 @@ input {
   width: 60%;
   margin-left: 20%;
   border-radius: 25px;
-  border:rgba(245,223,77,0.3) 0.5px solid
+  border:rgba(245,223,77,0.3) 0.5px solid;
 }
 
 .serviceContainer p {
@@ -468,9 +468,10 @@ input {
 
 #phone {
   
-  width: 25%;
+  width: 30%;
   height: auto;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .serviceTitle1 {
@@ -495,6 +496,7 @@ input {
   height: 300px;
   flex-wrap:wrap;
   justify-content: space-around;
+  margin-bottom: 1rem;
 }
 
 .icons {
@@ -535,10 +537,12 @@ input {
 }
 
 .nousDevTitle {
+  font-size: 48px;
   display: flex;
   width: auto;
   justify-content: center;
   color: var(--ultimate-Gray);
+  margin-bottom: 20px;
 }
 
 .nousDev {
@@ -550,6 +554,10 @@ input {
 .pNousDev {
 text-align: justify;
 width: 80%;
+}
+
+.pNousDev blockquote {
+  text-align: center;
 }
 
 #mNousDev{
@@ -575,6 +583,7 @@ width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
   
 .testimonialContainer {
@@ -629,6 +638,7 @@ width: 80%;
   display: flex;
   width: auto;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 #commentBtn {
@@ -1119,6 +1129,24 @@ animation: fade 1s ease-in-out;
 
 /* 14.Search */
 
+.projects {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  align-content: center;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.projects input {
+  margin-top: 1rem;
+  align-self: center;
+}
+
 .projects .filter {
   display: flex;
   flex-direction: column;
@@ -1145,10 +1173,10 @@ animation: fade 1s ease-in-out;
 }
 
 .projects .cancel {
+  margin-top: 1rem;
   text-align: center;
   border: 1px solid rgb(245,223,77);
   background-color: #020202;
-
   width: 10%;
   border-radius: 20px;
   cursor: pointer;
@@ -1158,6 +1186,11 @@ animation: fade 1s ease-in-out;
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.sort-container {
+justify-content: center;
 }
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -1179,7 +1212,7 @@ animation: fade 1s ease-in-out;
   border-radius: 25px;
   margin: 0 1.25rem;
   border-radius: 25px;
-  border: 2px solid var(--illuminating)
+  border: 2px solid var(--illuminating);
 }
 
 .searchCard:hover {
@@ -1378,12 +1411,13 @@ i{
 
 .partnerBody {
   height: auto;
-  width: 95%;
+  width: auto;
   background: rgba(175,164,206,0.2);
   border-radius: 25px;
   border: 1px solid var(--illuminating);
-  margin-left: 2%;
+  margin: 2rem 2%;
   padding: 1rem;
+
 }
 
 #partnerTitle {
@@ -1414,6 +1448,10 @@ i{
 .partnerInfo a {
   text-decoration: none;
   color:var(--illuminating);
+}
+
+.partnerInfo img {
+  justify-self: center;
 }
 
 #WCS {
@@ -1549,15 +1587,11 @@ i{
   .navBar {
       display: flex;
       justify-content: space-evenly;
+      width: auto;
   }
 
 
   /* HeroBanner */ 
-
-  .backgroundImage  {
-    
-    
-  }
 
   #heroText {
   font-size: 12px;
@@ -1575,83 +1609,198 @@ i{
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) { /* Smartphones */
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    width: 380px;
+  }
 
   /* Nav Component */ 
 
   .navBar {
     display: flex;
-    justify-content: space-evenly;
+    width: auto;
+    justify-content: flex-start;
+    position: fixed;
+  
   }
 
+  #aprojectButton2Cont {
+   display: none;
+  }
+
+  .Modal {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    top: 20px;
+    left: 5px;
+  }
+
+  #projectForm {
+    width: 230px;
+  }
+
+
   /* HeroBanner */ 
+
+  .backgroundImage {
+    margin-top: 50px;
+  }
 
   #heroText {
     text-align: center;
     flex-wrap: wrap;
     font-size: 18px;
-    color: blue;
+    top: 130px;
   }
 
-}
-#aprojectButton2 span {
-  position: relative;
-  color: var(--ultimate-Gray);
-  text-align: center;
-  font-family: var(--secondary-font);
-  letter-spacing: 4px;
-  z-index: 1;
-}
+  /* NousDev Component */
 
-#aprojectButton2 .liquid {
-  position: absolute;
-  top: -80px;
-  left: 0;
-  width: 200px;
-  height: 200px;
-  background: var(--illuminating);
-  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
-  transition: .5s;
-}
+  .nousDevTitle {
+    text-align: center;
+  }
 
-#aprojectButton2 .liquid::after,
-#aprojectButton2 .liquid::before {
-  content: '';
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -75%);
-  background: #000;
-}
-
-#aprojectButton2 .liquid::before {
+  /* Github Trends Component */
   
-  border-radius: 45%;
-  background: rgba(2, 2, 2, 1);
-  animation: animate 5s linear infinite;
-}
+  .cardContainer {
+    width: 95%;
+  }
 
-#aprojectButton2 .liquid::after {
+  .cardBody {
+    text-align: center;
+    justify-self: center;
+    margin: 0px 10px;
+
+  }
+
+  .cardFooter {
+    width: auto;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  #cardStars, #cardForks {
+    justify-content: center;
+  }
+
+  #cardUrl {
+    font-size:12px;
+  }
+
   
-  border-radius: 40%;
-  background: rgba(2, 2, 2, .5);
-  animation: animate 10s linear infinite;
+
+  #cardDescription {
+    flex-wrap: wrap;
+    width: auto;
+    font-size: 14px;
+  }
+
+  /* Testimonial Component */
+
+  #avatar {
+    margin-left: 5px;
+  }
+
+  .profileTestimonial p {
+    align-self: center;
+  }
+
+  /*  Partners Component  */
+
+  .partnerBody {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  #partnerTitle {
+    margin-top: 10px;
+    justify-self: center;
+  }
+
+  .partnerMain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partnerInfo h3 {
+    width: auto;
+    text-align: center;
+  }
+
+  .partnerMain img {
+    width: 20px;
+    height: auto;
+  }
+
+
 }
 
-#aprojectButton2:hover .liquid{
-  top: -120px;
-}
 
-@keyframes animate {
-  0% {
-    transform: translate(-50%, -75%) rotate(0deg);
+/* Submit Project Button */
+
+  #aprojectButton2 span {
+    position: relative;
+    color: var(--ultimate-Gray);
+    text-align: center;
+    font-family: var(--secondary-font);
+    letter-spacing: 4px;
+    z-index: 1;
   }
-  100% {
-    transform: translate(-50%, -75%) rotate(360deg);
+
+  #aprojectButton2 .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: var(--illuminating);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
   }
-}
+
+  #aprojectButton2 .liquid::after,
+  #aprojectButton2 .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+  }
+
+  #aprojectButton2 .liquid::before {
+    
+    border-radius: 45%;
+    background: rgba(2, 2, 2, 1);
+    animation: animate 5s linear infinite;
+  }
+
+  #aprojectButton2 .liquid::after {
+    
+    border-radius: 40%;
+    background: rgba(2, 2, 2, .5);
+    animation: animate 10s linear infinite;
+  }
+
+  #aprojectButton2:hover .liquid{
+    top: -120px;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
 
 /* 13.Modal Window 2 */
 
