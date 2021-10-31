@@ -1193,6 +1193,10 @@ animation: fade 1s ease-in-out;
 justify-content: center;
 }
 
+.sort-list {
+  display: none;
+}
+
 /* -------------------------------------------------------------------------------------------------- */
 
 /* 15.SearchModule */
@@ -1812,7 +1816,8 @@ i{
 
   #WCS, #git, #google {
    width: auto;
-   justify-self: center !important;
+   justify-self: center;
+   margin-left: 35%;
   }
 
   /* Search Component */
@@ -1835,11 +1840,25 @@ i{
   }
 
   .sort-list {
-    margin: 0;
+    display: flex;
+    width: 80%;
+    padding-right: 20px;
+    padding-left: 20px;
     justify-self: center;
   }
+  
+  .sort-list > option, select {
+    border: 1px solid var(--illuminating);
+    background: rgba(2, 2, 2, 1);
+    color: var(--lead-Crystal);
+    text-align: center;
+    font-size: 18px;
+    height: auto;
+  }
+
 
   .sort-container {
+    display: none;
     margin: 0;
     flex-wrap: wrap;
   }
@@ -1847,6 +1866,10 @@ i{
   .projects-list {
     width: auto;
     margin: 0;
+  }
+
+  .cancel {
+    display: none;
   }
 
 

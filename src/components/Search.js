@@ -45,6 +45,7 @@ const Search = () => {
                 <div className="sort-container">
 
                     <ul>
+                        
 
                         {radios.map((radio) => {
 
@@ -68,7 +69,8 @@ const Search = () => {
                 </div>
 
                 <div className='sort-list'>
-                    <select>
+                    <select onChange={(e) => setSelectedRadio(e.target.value)}>
+                        <option value=''>Trier par langage...</option>
                         
                            {radios.map((radio) => {
                                return (
@@ -76,7 +78,7 @@ const Search = () => {
                                    key={radio} 
                                    value={radio} 
                                    select={radio===selectedRadio}
-                                   onChange={(e) => setSelectedRadio(e.target.value)}
+                                   
                                    >
 
                                     {radio}
