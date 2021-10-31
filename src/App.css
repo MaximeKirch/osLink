@@ -1403,6 +1403,13 @@ i{
   text-align: center;
 }
 
+/* RESPONSIVE FOOTER */
+
+
+.responsiveFooter {
+  display: none;
+}
+
 
 
 /* -------------------------------------------------------------------------------------------------- */
@@ -1574,6 +1581,69 @@ i{
   line-height: 1 !important;
 }
 
+/* -------------------------------------------------------------------------------------------------- */
+/* XX. Submit Project Button */
+
+#aprojectButton2 span {
+  position: relative;
+  color: var(--ultimate-Gray);
+  text-align: center;
+  font-family: var(--secondary-font);
+  letter-spacing: 4px;
+  z-index: 1;
+}
+
+#aprojectButton2 .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: var(--illuminating);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+}
+
+#aprojectButton2 .liquid::after,
+#aprojectButton2 .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+
+#aprojectButton2 .liquid::before {
+  
+  border-radius: 45%;
+  background: rgba(2, 2, 2, 1);
+  animation: animate 5s linear infinite;
+}
+
+#aprojectButton2 .liquid::after {
+  
+  border-radius: 40%;
+  background: rgba(2, 2, 2, .5);
+  animation: animate 10s linear infinite;
+}
+
+#aprojectButton2:hover .liquid{
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+/* 13.Modal Window 2 */
 
 /* --------------------------------------------------------------------------------------------------- */ 
 /* ZZ. Responsive Design */ 
@@ -1703,10 +1773,14 @@ i{
 
   #avatar {
     margin-left: 5px;
+    height: 64px;
+    width: auto;
   }
 
   .profileTestimonial p {
     align-self: center;
+    justify-self: center;
+
   }
 
   /*  Partners Component  */
@@ -1727,17 +1801,169 @@ i{
     flex-direction: column;
   }
 
+  .partnerInfo {
+    margin-bottom: 20px;
+  }
+
   .partnerInfo h3 {
     width: auto;
     text-align: center;
   }
 
-  .partnerMain img {
-    width: 20px;
+  #WCS, #git, #google {
+   width: auto;
+   justify-self: center !important;
+  }
+
+  /* Search Component */
+
+  .projects {
+    display: flex;
+    width: auto;
     height: auto;
+    justify-content: center;
+  }
+
+  #search {
+    width: 340px;
+  }
+
+  .filter {
+    display: flex;
+    width: auto;
+
+  }
+
+  .sort-list {
+    margin: 0;
+    justify-self: center;
+  }
+
+  .sort-container {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .projects-list {
+    width: auto;
+    margin: 0;
   }
 
 
+  /*  Project List component */
+  
+    .project-infos > p {
+      text-align: center;
+    }
+
+    .project-title {
+      text-align: center;
+      margin: 0px;
+      background: red;
+    }
+  
+
+  /* Search Module component */
+
+    .dataContainer { /* Infos container */ 
+      display: flex;
+      width: auto;
+      justify-content: center;
+    }
+
+    .mainCard {
+      justify-self: center;
+    }
+
+    #auteurProject, #languageProject {
+      text-align: center;
+    }
+
+    #descriptionProject {
+      width: auto;
+      padding: 0px 20px;
+      height: auto;
+      text-align: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+
+    .footerCard {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .starsProject, .forksProject {
+      justify-content: center;
+    }
+
+  /* FAQ Component */
+    
+  .faqContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-items: center;
+  }
+
+  .faqContainer, .h3Faq{
+    text-align: center;
+  }
+
+  .detailsFaq {
+    display: flex;
+    justify-self: center;
+  }
+
+  .detailsFaqCont {
+    display: flex;
+    justify-content: center; 
+  }
+
+  .summaryFaq {
+    width: 300px;
+    margin-left: 5%;
+  }
+
+  .faqAnswer, .faqAnswer p {
+    width: 300px;
+  }
+
+  .faqAnswer {
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+
+  /* Footer Component */
+
+  .responsiveFooter {
+    display: flex;
+    flex-direction: column;
+    background:rgba(2, 2, 2, 1);
+  }
+
+  .responsiveFooter p {
+    text-align: center;
+    color: var(--illuminating);
+  }
+
+  .responsiveList ul {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .responsiveList a {
+    color: var(--lead-Crystal);
+  }
+
+  .footerMain {
+    display: none;
+  }
+
+  .lastFooter {
+    display: none;
+  }
 }
 
 

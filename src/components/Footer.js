@@ -48,6 +48,8 @@ function Footer() {
             </div>
                      
         </div>
+
+      
         
         <div className="footerNoRow">
             <p className="lastFooter">
@@ -57,6 +59,23 @@ function Footer() {
             </p>   
             </div> 
     </div>
+
+      {/* Responsive Footer */}
+
+        <div className='responsiveFooter'>
+
+            <p>{new Date().getFullYear()} FAJEMA INC</p>
+            <div className='responsiveList'>
+                <ul>
+                    <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                        </img><a href="https://www.linkedin.com/in/fabrice-huet/"> Fabrice HUET</a></li>
+                    <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                        </img><a href="https://www.linkedin.com/in/jefferson-guegan-403753217/"> Jefferson GUEGAN</a></li>
+                    <li><img id="linkedinLogo" class="logo" alt="logo linkedin" src={linkedin}>
+                        </img><a href="https://www.linkedin.com/in/maxime-kirch-467443135/"> Maxime KIRCH</a></li>
+                </ul>
+            </div>
+        </div>
         
 
 

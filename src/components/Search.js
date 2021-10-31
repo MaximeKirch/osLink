@@ -23,6 +23,8 @@ const Search = () => {
 
         }, []);
 
+        console.log(selectedRadio)
+
     return (
 
         <div className="projects">
@@ -52,7 +54,7 @@ const Search = () => {
 
                                    
                                     <input type="radio"value={radio} id={radio}
-                                    checked={radio==selectedRadio} 
+                                    checked={radio===selectedRadio} 
                                     //Ici on récupère le radio dans sa variable
                                     onChange={(e) => setSelectedRadio(e.target.value)}/>
 
@@ -65,12 +67,37 @@ const Search = () => {
                     </ul>
                 </div>
 
-                <div className="cancel">
-                {/*Ici on crée un bouton annulant la sélection radio
-                il ne s'affiche que si un radio est coché selectRadion = true*/}
-                {selectedRadio && <h5 onClick={() => setSelectedRadio("")}>Retirer le filtre</h5>}
+                <div className='sort-list'>
+                    <select>
+                        
+                           {radios.map((radio) => {
+                               return (
+                                   <option 
+                                   key={radio} 
+                                   value={radio} 
+                                   select={radio===selectedRadio}
+                                   onChange={(e) => setSelectedRadio(e.target.value)}
+                                   >
+
+                                    {radio}
+
+                                    </option>
+
+                                    
+                               )
+                           })} 
+                        
+                    </select>
                 </div>
+
+                <div className="cancel">
+                    {/*Ici on crée un bouton annulant la sélection radio
+                    il ne s'affiche que si un radio est coché selectRadion = true*/}
+                    {selectedRadio && <h5 onClick={() => setSelectedRadio("")}>Retirer le filtre</h5>}
+                </div>
+
             </div>
+
         {/*Ici on affiche les projets par défaut on les affiche tous*/}
         <ul className="projects-list">
             {projects
