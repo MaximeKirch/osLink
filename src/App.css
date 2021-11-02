@@ -962,7 +962,7 @@ input:focus {
 
 .faqContainer{
   Margin:auto;
-  width: 80%;
+  width: 60%;
   padding-bottom: 20px;
 
 }
@@ -977,12 +977,16 @@ input:focus {
 
 .summaryFaq{
 font-family: var(--primary-font);
-background-color: var(--ultimate-Gray);
-color: var(--light-illuminating);
+background-color: rgba(175,164,206,0.1);
+color: var(--illuminating);
 border: 1px solid var(--illuminating);
 border-radius: 25px;
 padding: 10px;
 cursor: pointer;
+}
+
+.summaryFaq:hover{
+  box-shadow: 1px 1px 25px 10px rgba(245,223,77, 0.4);
 }
 
 .faqAnswer{
@@ -998,7 +1002,7 @@ cursor: pointer;
 }
 
 details[open] > summary {
-  background-color: var(--ultimate-Gray);
+  background-color: rgba(175,164,206,0.1);
   color: var(--illuminating);
   border: 1px solid var(--illuminating);
   border-radius: 25px;
@@ -1006,7 +1010,7 @@ details[open] > summary {
 }
 
 details[open] > .faqAnswer {
-background-color: var(--light-illuminating);
+  background-color: rgba(175,164,206,0.1);
 color: var(--ultimate-Gray);
 border: 1px solid var(--illuminating);
 border-radius: 25px;
@@ -1420,10 +1424,14 @@ i{
 
 /* 16. Partners Component*/
 
+.partnerContainer{
+  display: flex;
+  justify-content: center;
+  width:80%;
+}
+
 .partnerBody {
-  height: auto;
-  width: auto;
-  background: rgba(175,164,206,0.2);
+  background: rgba(175,164,206,0.1);
   border-radius: 25px;
   border: 1px solid var(--illuminating);
   margin: 2rem 2%;
@@ -1438,6 +1446,7 @@ i{
 }
 
 .partnerMain {
+  width: 80%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -1446,6 +1455,7 @@ i{
 }
 
 .partnerInfo {
+  width: 300px;
   justify-content: center;
   align-content: flex-start;
   flex-wrap: wrap;
