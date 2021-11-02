@@ -156,6 +156,10 @@ ul{
   align-self: center;
 }
 
+#T{
+  color:var(--illuminating)
+}
+
 .a1Nav {
   color: var(--ultimate-Gray);
 }
@@ -287,9 +291,9 @@ ul{
 }
 
 .contact-form {
-  max-width: 30%;
-  background: var(--ultimate-Gray);
-  border: 1px solid var(--illuminating);
+ width: 60%;
+ background-color: rgba(175,164,206,0.1);
+  border: 2px solid var(--illuminating);
   border-radius: 25px;
 }
 
@@ -302,6 +306,7 @@ ul{
 .form-content {
   display: grid;
   grid-template-rows: repeat(4, 1fr) 100px;
+  margin: 1rem;
 }
 
 input , .contact-form textarea {
@@ -450,7 +455,7 @@ input {
   width: 60%;
   margin-left: 20%;
   border-radius: 25px;
-  border:rgba(245,223,77,0.3) 0.5px solid;
+  border: 2px solid var(--illuminating)
 }
 
 .serviceContainer p {
@@ -979,7 +984,7 @@ input:focus {
 font-family: var(--primary-font);
 background-color: rgba(175,164,206,0.1);
 color: var(--illuminating);
-border: 1px solid var(--illuminating);
+border: 2px solid var(--illuminating);
 border-radius: 25px;
 padding: 10px;
 cursor: pointer;
@@ -1427,13 +1432,13 @@ i{
 .partnerContainer{
   display: flex;
   justify-content: center;
-  width:80%;
+  
 }
 
 .partnerBody {
   background: rgba(175,164,206,0.1);
   border-radius: 25px;
-  border: 1px solid var(--illuminating);
+  border: 2px solid var(--illuminating);
   margin: 2rem 2%;
   padding: 1rem;
 
@@ -1446,15 +1451,16 @@ i{
 }
 
 .partnerMain {
-  width: 80%;
+  
   height: auto;
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .partnerInfo {
+  display: flex;
   width: 300px;
   justify-content: center;
   align-content: flex-start;
@@ -1515,9 +1521,11 @@ i{
 .project-infos {
   margin-top: 1rem;
   padding: 1rem;
-  border: 3px solid var(--illuminating);
+  border: 2px solid var(--illuminating);
   border-radius: 12px;
   color: var(--primary-light);
+  background-color: rgba(175,164,206,0.1);
+  height: 250px;
 }
 
 .project-infos a {
@@ -1541,6 +1549,10 @@ i{
 .swiper-container {
   padding-top: 8rem !important;
   max-width: 100% !important;
+}
+
+.swiper-wrapper{
+  margin: 1rem;
 }
 
 .swiper-button-prev, .swiper-button-next{
