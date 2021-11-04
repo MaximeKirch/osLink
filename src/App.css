@@ -1573,7 +1573,8 @@ z-index: -10;
   position:absolute;
   height: 50px !important;
   width: 50px !important;
-  background-color: var(--ultimate-Gray) !important;
+  background-color: rgba(175,164,206,0.1) !important;
+  border: 2px solid var(--illuminating);
   z-index:10 !important;
   right: 60px !important;
   left: auto !important;
@@ -1581,6 +1582,7 @@ z-index: -10;
   transform: translateY(50%) !important;
   color: var(--illuminating) !important;
   border-radius: 8px !important;
+  margin: 1rem;
 }
 
 .swiper-button-next{
