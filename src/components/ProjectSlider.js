@@ -15,7 +15,7 @@ const ProjectSlider = () => {
                 
                 <Swiper
                 spaceBetween={30}
-                slidesPerView={3}
+                slidesPerView={2}
                 navigation
                 breakpoints={
                     {
@@ -33,7 +33,7 @@ const ProjectSlider = () => {
                         // quand la largeur d'écran est >=1200 alors j'ai 3 slides
 
                         1200: {
-                            slidesPerView: 3,
+                            slidesPerView: 2,
                         },
                     }
                 }
