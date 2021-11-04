@@ -1182,9 +1182,9 @@ animation: fade 1s ease-in-out;
 }
 
 .projects .cancel {
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
-  border: 1px solid rgb(245,223,77);
+  border: 2px solid var(--illuminating);
   background-color: #020202;
   width: 10%;
   border-radius: 20px;

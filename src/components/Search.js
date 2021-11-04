@@ -95,7 +95,7 @@ const Search = () => {
                 <div className="cancel">
                     {/*Ici on crée un bouton annulant la sélection radio
                     il ne s'affiche que si un radio est coché selectRadion = true*/}
-                    {selectedRadio && <h5 onClick={() => setSelectedRadio("")}>Retirer le filtre</h5>}
+                    {selectedRadio && <span onClick={() => setSelectedRadio("")}>Retirer le filtre</span>}
                 </div>
 
             </div>
