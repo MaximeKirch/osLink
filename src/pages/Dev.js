@@ -9,6 +9,7 @@ import HeroBanner from'../components/HeroBanner';
 import Footer from '../components/Footer';
 import Faq from '../components/Faq';
 import Search from '../components/Search';
+import Testimonials from '../components/Testimonials';
 
 
 const Dev = () => {
@@ -58,6 +59,8 @@ const Dev = () => {
                 <Body />
 
                 <Search />
+
+                <Testimonials/>
 
                 <Faq />
 

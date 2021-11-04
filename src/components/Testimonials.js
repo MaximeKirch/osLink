@@ -22,6 +22,34 @@ function Testimonials() {
 
                 </div>
 
+                <div className='testimonialContainer'>
+           
+           
+                    <p className='testimonialText'>The most important part of the Startup Framework are the testimonials. Testimonials are a part of serious and confidence
+                        for the Startup.</p>
+
+                    
+                    <div className='profileTestimonial'>
+                        <img id="avatar" src={Man} alt="avatar"/>
+                        <p>John Doe, DESIGNMODO</p>
+                    </div>
+
+                </div>
+
+                <div className='testimonialContainer'>
+           
+           
+                    <p className='testimonialText'>The most important part of the Startup Framework are the testimonials. Testimonials are a part of serious and confidence
+                        for the Startup.</p>
+
+                    
+                    <div className='profileTestimonial'>
+                        <img id="avatar" src={Man} alt="avatar"/>
+                        <p>John Doe, DESIGNMODO</p>
+                    </div>
+
+                </div>
+
             </div>
             
             {/* <div className='buttonContainer'>

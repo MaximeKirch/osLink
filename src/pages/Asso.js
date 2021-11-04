@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 import Faq from '../components/Faq';
 import ContactForm from '../components/ContactForm';
 import ProjectSlider from '../components/ProjectSlider';
-
+import Testimonials from '../components/Testimonials';
 
 const Asso = () => {
 
@@ -63,6 +63,8 @@ const Asso = () => {
                       <ProjectSlider/>
 
                       <ContactForm />
+
+                      <Testimonials/>
 
                       <Faq />
  

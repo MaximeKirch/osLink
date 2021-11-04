@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css'
 import Service from './Services'
 import NousDev from './NousDev'
-import Testimonials from './Testimonials'
 import GithubTrends from './GithubTrends'
 import Partners from './Partners';
 
@@ -30,7 +29,7 @@ function Body() {
     
         <Service />
 
-        <Testimonials />
+        
 
         <Partners />
 
