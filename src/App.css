@@ -589,6 +589,7 @@ width: 80%;
   
 .testimonialContainer {
   display: flex;
+  
   width: 80%;
   justify-content: center;
   flex-wrap: wrap;
@@ -624,6 +625,7 @@ width: 80%;
   border-radius: 25px;
   justify-content: space-around;
   background: rgba(175,164,206,0.4);
+  margin: 1rem;
 }
 
 .profileTestimonial p {
