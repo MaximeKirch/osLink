@@ -24,11 +24,11 @@ function Testimonials() {
 
             </div>
             
-            <div className='buttonContainer'>
+            {/* <div className='buttonContainer'>
         
                 <button id='commentBtn'>Ecrire un commentaire</button>
 
-            </div>
+            </div> */}
         
         
         </>
