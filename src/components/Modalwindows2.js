@@ -11,9 +11,9 @@ const ModalWindow2 = ({open, hide}) => open ? (
             
         <div className="modal-wrapper">
 
-            <button type="button" className="close2" onClick={hide}>
+            {/* <button type="button" className="close2" onClick={hide}>
                 <span>&times;</span>
-            </button>
+            </button> */}
 
             <h2 className="h2Modal-wrapper">Quel expérience recherchez-vous ?</h2>
 

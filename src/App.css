@@ -1407,6 +1407,7 @@ i{
 .logo{
   width :20px;
   filter: invert(99%) sepia(59%) saturate(2122%) hue-rotate(333deg) brightness(103%) contrast(92%);
+z-index: -10;
 }
 
 .footerList{
