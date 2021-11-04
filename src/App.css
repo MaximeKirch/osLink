@@ -1509,7 +1509,7 @@ z-index: -10;
 
 .project-img{
   width: 80%;
-  border:2px solid var(--illuminating);
+  /* border:2px solid var(--illuminating); */
   border-radius: 12px;
   height: 400px;
 }
@@ -1529,6 +1529,7 @@ z-index: -10;
 }
 
 .project-infos {
+  box-sizing: border-box;
   margin-top: 1rem;
   padding: 1rem;
   border: 2px solid var(--illuminating);
