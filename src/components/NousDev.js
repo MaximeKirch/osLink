@@ -24,14 +24,12 @@ function NousDev() {
             </p>
 
             <p className="pNousDev"> 
-            Que vous soyez apprenti développeur à la recherche d'expérience, que vous soyez en apprentissage d'un nouveau langage de programmation et à la recherche d'un mentor ou encore que vous souhaitiez former de nouveaux developpeurs au travers de projets open source, vous trouverez sur OSLink une multitude de projets à la recherche de nouveaux talents pour continuer de grandir ! 
+            Que vous soyez apprenti développeur à la recherche d'expérience, que vous soyez en apprentissage d'un nouveau langage de programmation et à la recherche d'un mentor ou encore que vous souhaitiez former de nouveaux developpeurs au travers de projets open source, vous trouverez sur Mee<span id="T">T</span>onDev une multitude de projets à la recherche de nouveaux talents pour continuer de grandir ! 
             </p>
 
             
 
-            <p className="pNousDev">
-                Vous trouverez ci-dessous notre générateur de projets aléatoire : en un clic nous vous suggérons un projet GitHub classé par langage de programmation mais aussi une brève description, le nombre de forks ainsi que la note en étoiles.
-            </p>
+            
 
             </div>
 
