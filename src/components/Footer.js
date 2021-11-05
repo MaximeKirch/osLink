@@ -40,7 +40,7 @@ function Footer() {
                         <li><img id="twitterLogo" class="logo" alt="logo Twitter" src={twitter}>
                             </img> Twitter</li>
                         <li><img id="instagramLogo" class="logo" alt="logo instagram" src={instagram}>
-                            </img>  Instagram</li>
+                            </img> Instagram</li>
                         <li><img id="facebookLogo" class="logo" alt="logo facebook" src={facebook}>
                             </img> Facebook</li>
                         </ul>
