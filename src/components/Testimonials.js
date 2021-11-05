@@ -10,10 +10,10 @@ function Testimonials() {
 
                 <div className='testimonialContainer'>
            
-           
+                    <div>
                     <p className='testimonialText'>The most important part of the Startup Framework are the testimonials. Testimonials are a part of serious and confidence
                         for the Startup.</p>
-
+                    </div>
                     
                     <div className='profileTestimonial'>
                         <img id="avatar" src={Man} alt="avatar"/>
@@ -25,13 +25,12 @@ function Testimonials() {
                 <div className='testimonialContainer'>
            
            
-                    <p className='testimonialText'>The most important part of the Startup Framework are the testimonials. Testimonials are a part of serious and confidence
-                        for the Startup.</p>
+                    <p className='testimonialText'>Un vrai plaisir de travailler avec vous, Merci Maxime, Merci Jefferson</p>
 
                     
                     <div className='profileTestimonial'>
                         <img id="avatar" src={Man} alt="avatar"/>
-                        <p>John Doe, DESIGNMODO</p>
+                        <p>Fabrice HUET, WCS</p>
                     </div>
 
                 </div>

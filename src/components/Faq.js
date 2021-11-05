@@ -10,12 +10,12 @@ function Faq() {
 
                 <div className="detailsFaqCont">
                     <details className="detailsFaq">
-                        <summary className="summaryFaq">Quel est le principe d'OSLink ? </summary>
+                        <summary className="summaryFaq">Quel est le principe de Mee<span id="T">T</span>onDev ? </summary>
                             <div className="faqAnswer">
                                 
                            <p> Un partenariat gagnant-gagnant entre des développeurs en devenir et des associations prêtes à leur confier leur projet.</p>
 
-                            <p>Vous êtes une association désireuse d'avoir une visibilité sur le web ? Chez OsLink nous vous proposons des étudiants prêts à vous proposer un site ou une application fonctionnelle.</p>
+                            <p>Vous êtes une association désireuse d'avoir une visibilité sur le web ? Chez Mee<span id="T">T</span>onDev nous vous proposons des étudiants prêts à vous proposer un site ou une application fonctionnelle.</p>
                             </div>
                     </details>
                 </div>
@@ -44,7 +44,7 @@ function Faq() {
                     <details className="detailsFaq">
                         <summary className="summaryFaq">Qui peut s'inscrire ?</summary>
                             <div className="faqAnswer">
-                               <p>Tout le monde ! Que vous soyez étudiant en école d'informatique, en formation accélérée (c'est d'ailleurs de le parcours que nous avons choisi !) ou encore autodidacte, OSLink est ouvert à tout le monde.</p>
+                               <p>Tout le monde ! Que vous soyez étudiant en école d'informatique, en formation accélérée (c'est d'ailleurs de le parcours que nous avons choisi !) ou encore autodidacte, Mee<span id="T">T</span>onDev est ouvert à tout le monde.</p>
                                <p>Le seul pré-requis est l'envie d'apprendre ! </p>
                             </div>
                     </details>

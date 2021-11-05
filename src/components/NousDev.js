@@ -6,7 +6,7 @@ import '../App.css'
 function NousDev() {
     return(
     <>
-        <h2 className="nousDevTitle">Bienvenue sur OSLink </h2>
+        <h2 className="nousDevTitle">Bienvenue sur Mee<span id="T">T</span>onDev </h2>
         
         <div className="nousDevContainer">
             
@@ -16,11 +16,11 @@ function NousDev() {
             
 
             <p className="pNousDev">
-            Chez OSLink, nous pensons que la maîtrise vient grâce à la pratique. Nous pensons aussi que chaque personne mérite d'avoir sa chance. </p>
+            Chez Mee<span id="T">T</span>onDev, nous pensons que la maîtrise vient grâce à la pratique. Nous pensons aussi que chaque personne mérite d'avoir sa chance. </p>
            <p className="pNousDev"> Par conséquent, notre objectif est de pouvoir proposer à chaque personne de développer son talent et ses compétences. </p>
            
-           <p className="pNousDev" id="mNousDev">
-             "Le meilleur moyen de réussir, c’est toujours d’essayer encore une fois." <blockquote>Thomas Edison</blockquote>
+           <p className="pNousDev" id="mNousDev"><h3>
+             "Le meilleur moyen de réussir, c’est toujours d’essayer encore une fois." </h3><blockquote>Thomas Edison</blockquote>
             </p>
 
             <p className="pNousDev"> 

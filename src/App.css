@@ -178,31 +178,24 @@ ul{
 }
 
 #submitBtn {
-  border-radius: 2px;
+  border-radius: 25px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--illuminating);
-  color: var(--lavender);
   height: 35px;
   width: 150px;
-  border:none;
+  /* border:none; */
   margin-right: 20px;
-  transition: transform 500ms ease-in-out-back;
-  background-position : 800ms ease-in-out-bac; 
-  box-shadow: 500ms linear;
-  background-size: contain;
-  background-position: -200px center;
-  background-repeat: no-repeat;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #020202;
+  border : solid 2px  var(--illuminating);
+  color: var(--illuminating);
 }
 
 #submitBtn:hover{
   cursor: pointer;
-  transform: scale(1.1);
-  opacity: 0.8;
+  
   background-position: -60px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 1px 1px 25px 10px rgba(245,223,77, 0.4);
 }
 
 #submitBtn:active{
@@ -316,6 +309,7 @@ input , .contact-form textarea {
   color: var(--illuminating);
   border-bottom: 1px solid var(--illuminating);
   width: 80%;
+  
 }
 
 .contact-form textarea {
@@ -546,12 +540,15 @@ input {
   justify-content: center;
   color: var(--ultimate-Gray);
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--illuminating) ;
 }
 
 .nousDev {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .pNousDev {
@@ -564,9 +561,11 @@ width: 80%;
 }
 
 #mNousDev{
-  background-color:var(--light-illuminating);
-  color: var(--ultimate-Gray);
+  background-color:rgba(175,164,206,0.1);
+  color: var(--illuminating);
   padding: 20px;
+  text-align: center;
+  border-radius: 25px;
 }
 
 
@@ -591,9 +590,10 @@ width: 80%;
   
 .testimonialContainer {
   display: flex;
-  
+  flex-direction: column;
   width: 80%;
   justify-content: center;
+align-items: center;
   flex-wrap: wrap;
   border-top: 0.5px solid rgba(245,223,77,0.3);
   border-bottom: 0.5px solid rgba(245,223,77,0.3);
@@ -879,9 +879,9 @@ input:focus {
 /* 11.Modal Component */
 
 .Modal {
-  background-color: var(--lavender);
+  background-color: #020202;
   opacity: 1;
-  border: solid 1px #ccc;
+  border: solid 2px var(--illuminating);
   box-shadow: 1px 1px 1px black;
   padding: 16px;
   width: 500px; 
@@ -894,14 +894,17 @@ input:focus {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border-radius: 25px;
 }
 
 #close {
-  position: relative;
+  /* position: relative; */
   cursor: pointer;
   text-align: center;
-  background: var(--illuminating);
-  color: var(--ultimate-Gray);
+  background: #020202;
+  border-radius: 5px;
+  border: solid 1px var(--illuminating);
+  color: var(--illuminating);
   margin-right: 5px;
   height: 25px;
   width: auto;
@@ -931,15 +934,17 @@ input:focus {
   flex-wrap: wrap;
   align-content:center;
   justify-content: center;
+  
 }
 
 .projectSelect h3 {
   text-align: center;
   color: var(--illuminating);
+  margin-top: 1rem;
 }
 
 .projectSelect select {
-  width: 30%;
+  width: 40%;
   margin: auto;
   font-family: var(--primary-font);
   margin-bottom: 1.25rem;
@@ -1435,6 +1440,7 @@ z-index: -10;
 .partnerContainer{
   display: flex;
   justify-content: center;
+  
 }
 
 .partnerBody {
@@ -1465,8 +1471,13 @@ z-index: -10;
   display: flex;
   width: 300px;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
   flex-wrap: wrap;
+}
+
+.partnerlogo{
+  display: flex;
+  justify-content: center;
 }
 
 .partnerInfo:hover {
@@ -1480,23 +1491,22 @@ z-index: -10;
   margin: 1rem;
 }
 
-.partnerInfo img {
-  justify-self: center;
-}
-
 #WCS {
   height: 100px;
   width: 120px;
+  margin-bottom: 1rem;
 }
 
 #git {
   height: 100px;
   width: 150px;
+  margin-bottom: 1rem;
 }
 
 #google {
   height: 100px;
   width: 100px;
+  margin-bottom: 1rem;
 }
 
 
@@ -1816,6 +1826,8 @@ z-index: -10;
   }
 
   /* Testimonial Component */
+
+
 
   .testimonialMain {
     justify-self: center;

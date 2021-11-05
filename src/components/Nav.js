@@ -18,7 +18,7 @@ function Nav() {
             <NavLink className="navMenu" exact to = "/osLink">
             
                 <img id="logo" src={logo} alt='navLogo' />
-                <h1 id='title'><a className="a1Nav" href="#">Mee<span id="T">T</span>onDev</a></h1>
+                <h1 id='title'><a className="a1Nav" href="#">Mee<span id="T">T</span>onDev '</a></h1>
                  
             </NavLink>
         
