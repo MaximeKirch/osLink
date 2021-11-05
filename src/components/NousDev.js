@@ -6,7 +6,7 @@ import '../App.css'
 function NousDev() {
     return(
     <>
-        <h2 className="nousDevTitle">Bienvenue sur Mee<span id="T">T</span>onDev </h2>
+        <h2 className="nousDevTitle"><span>Bienvenue sur Mee<span id="T">T</span>onDev</span> </h2>
         
         <div className="nousDevContainer">
             

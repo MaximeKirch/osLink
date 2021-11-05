@@ -35,7 +35,7 @@ function Faq() {
                         <summary className="summaryFaq">Quel est le délai de livraison ?</summary>
                             <div className="faqAnswer">
                           <p>  Tout dépend du projet et du nombre d'étudiants qui travailleront dessus. </p>
-                          <p>Nous pourrons réaliser une estimation en fonction du projet. Le but n'est pas de surcharger les babydev, vous pouvez vérifier votre place sur la liste d'attente.</p> 
+                          <p>Nous pourrons réaliser une estimation en fonction du projet. Le but n'est pas de surcharger les apprenants, vous pouvez vérifier votre place sur la liste d'attente.</p> 
                           <p>En effet nous essayons de répartir les demandes à travers les écoles en partenariat afin que les temps d'attente soient écourtés le plus possible. </p>
                             </div>
                     </details>
