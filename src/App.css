@@ -1257,11 +1257,6 @@ justify-content: center;
   width: 100%;
 }
 
-/* .searchCard:hover {
-  transform: scale(1.10);
-} */
-
-
 
 .searchModule li {
   list-style-type: none;
@@ -1314,7 +1309,7 @@ justify-content: center;
 }
 
 .searchModule #nameProject {
-  font-size: 1.3rem; /* a changer en h? */
+  font-size: 1.3rem; 
   text-align: center;
   color:var(--illuminating);
   text-transform: uppercase;
@@ -1330,14 +1325,6 @@ justify-content: center;
   font-weight: 700;
   color: var(--illuminating);
 }
-
-/* .searchModule #starsProject {
-  display: inline-flex;
-  align-content: center;
-  font-weight: 700;
-  color: var(--illuminating);
-} */
-
 
 #starProject {
   width: 25px;
@@ -1455,7 +1442,8 @@ z-index: -10;
 .partnerContainer{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+
+  
 }
 
 
@@ -1466,6 +1454,7 @@ z-index: -10;
   border: 2px solid var(--illuminating);
   margin: 2rem 2%;
   padding: 1rem;
+
 
 }
 
@@ -1739,7 +1728,7 @@ z-index: -10;
 /* ZZ. Responsive Design */ 
 
 
-@media screen and (max-width: 768px)  /*Ipad, Tablettes */{
+@media screen and (max-width: 1281px)  /*Ipad, Tablettes */{
 
 
   /* Nav Component */
@@ -1747,7 +1736,7 @@ z-index: -10;
   .navBar {
       display: flex;
       justify-content: space-evenly;
-      width: auto;
+      width: 100%;
   }
 
 
@@ -1765,6 +1754,16 @@ z-index: -10;
     .Service{
       display: none;
     }
+
+  /* Partners Component */
+  
+   .partnerBody {
+     width: 800px;
+   }
+
+   .partnerInfo  h3 {
+     font-size: 24px;
+   }
 
 
 }

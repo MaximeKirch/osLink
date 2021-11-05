@@ -28,7 +28,7 @@ const SearchModule = (props) => {
                                     <div id="nameProject"><h6>{project.name}</h6></div>
                                     <div id="auteurProject">{project.author}</div>
                                     <div id="languageProject">{project.language}</div>
-                                    <div id="descriptionProject">{project.description}</div>   
+                                    <div id="descriptionProject">{project.description.length === 0 ? 'Ce projet ne comporte pas de description' : project.description}</div>   
                             
                                
 
