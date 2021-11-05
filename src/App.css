@@ -1734,7 +1734,7 @@ z-index: -10;
 
   .navBar {
     display: flex;
-    width: auto;
+    width: 100%;
     justify-content: flex-start;
     position: fixed;
   
@@ -1814,6 +1814,10 @@ z-index: -10;
 
   /* Testimonial Component */
 
+  .testimonialMain {
+    justify-self: center;
+  }
+
   #avatar {
     margin-left: 5px;
     height: 64px;
@@ -1853,10 +1857,21 @@ z-index: -10;
     text-align: center;
   }
 
-  #WCS, #git, #google {
+  #WCS {
+    width: auto;
+    justify-self: center;
+    margin-left: 25%;
+  }
+
+  #git {
    width: auto;
    justify-self: center;
-   margin-left: 35%;
+   margin-left: 15%;
+  }
+  
+  #google {
+    width: auto;
+
   }
 
   /* Search Component */
@@ -1869,7 +1884,7 @@ z-index: -10;
   }
 
   #search {
-    width: 340px;
+    width: 320px;
   }
 
   .filter {
@@ -1881,6 +1896,7 @@ z-index: -10;
   .sort-list {
     display: flex;
     width: 80%;
+    margin-left: 20%;
     padding-right: 20px;
     padding-left: 20px;
     justify-self: center;
