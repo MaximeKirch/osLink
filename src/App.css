@@ -1726,6 +1726,7 @@ z-index: -10;
 @media screen and (max-width: 375px) { /* Smartphones */
 
   * {
+    width: auto;
     margin: 0px;
     padding: 0px;
   }
@@ -1734,7 +1735,7 @@ z-index: -10;
 
   .navBar {
     display: flex;
-    width: auto;
+    width: 100%;
     justify-content: flex-start;
     position: fixed;
   
@@ -1814,6 +1815,10 @@ z-index: -10;
 
   /* Testimonial Component */
 
+  .testimonialMain {
+    justify-self: center;
+  }
+
   #avatar {
     margin-left: 5px;
     height: 64px;
@@ -1853,10 +1858,21 @@ z-index: -10;
     text-align: center;
   }
 
-  #WCS, #git, #google {
+  #WCS {
+    width: auto;
+    justify-self: center;
+    margin-left: 25%;
+  }
+
+  #git {
    width: auto;
    justify-self: center;
-   margin-left: 35%;
+   margin-left: 15%;
+  }
+  
+  #google {
+    width: auto;
+
   }
 
   /* Search Component */
@@ -1869,7 +1885,7 @@ z-index: -10;
   }
 
   #search {
-    width: 340px;
+    width: 320px;
   }
 
   .filter {
@@ -1881,6 +1897,7 @@ z-index: -10;
   .sort-list {
     display: flex;
     width: 80%;
+    margin-left: 20%;
     padding-right: 20px;
     padding-left: 20px;
     justify-self: center;
@@ -1965,11 +1982,12 @@ z-index: -10;
     display: flex;
     flex-direction: column;
     width: auto;
-    justify-items: center;
+    margin-right: 10%;
   }
 
-  .faqContainer, .h3Faq{
-    text-align: center;
+  .h3Faq{
+    margin-left: 10%;
+
   }
 
   .detailsFaq {
@@ -2002,6 +2020,7 @@ z-index: -10;
     display: flex;
     flex-direction: column;
     background:rgba(2, 2, 2, 1);
+    align-content: center;
   }
 
   .responsiveFooter p {
