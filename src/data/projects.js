@@ -1,6 +1,9 @@
 import Project1 from '../assets/project1.png';
 import Project2 from '../assets/project2.png';
 import Project3 from '../assets/project3.png';
+import Project4 from '../assets/project4.png';
+import Project5 from '../assets/project5.png';
+import Project6 from '../assets/project6.jpg';
 
 const projects = [
     {
@@ -13,7 +16,7 @@ const projects = [
     },
     {
       id: 2,
-      name: "OsLink",
+      name: "MeeTonDev'",
       desc:
         'Projet réalisé par une équipe de 3 développeurs dans le cadre de la Wild Code School. Il s\agit d\'une plateforme de mise en relation de développeurs à la recherche de projet OpenSource à développer avec des associations ayant des besoins de développement. Le projet est en cours de développement, le lien amène sur le repo Github.',
       img: Project2,
@@ -29,27 +32,27 @@ const projects = [
     },
     {
       id: 4,
-      name: 'Projet4 à définir',
+      name: 'Bordeaux Métropole',
       desc:
-        'Lorem Ipsum',
-      img: Project1,
-      url:"https://jefferson-guegan.github.io/Battle-Changer/",
+        'Projet réalisé par une équipe de 3 développeurs, il s\'agit d\'un site vitreine pour l\'agglomération de Bordeaux Métropole. Le site a été développé en HTML/CSS avec quelques fonctionnalités en Javascript dans le cadre d\'un projet pour la Wild Code School. ',
+      img: Project4,
+      url:"https://jefferson-guegan.github.io/Bordeaux/index.html",
     },
     {
       id: 5,
-      name: "Projet5 à définir",
+      name: "Souplade",
       desc:
-        'Projet réalisé par une équipe de 3 développeurs dans le cadre de la Wild Code School. Il s\agit d\'une plateforme de mise en relation de développeurs à la recherche de projet OpenSource à développer avec des associations ayant des besoins de développement. Le projet est en cours de développement, le lien amène sur le repo Github.',
-      img: Project2,
-      url:"https://github.com/MaximeKirch/osLink",
+        'Projet réalisé par une équipe de 3 développeurs dans le cadre de la Wild Code School. Il s\'agit d\'un site proposant des soupes avec des légumes de saison. Le projet a été développé en utilisant majoritairement le HTML/CSS avec l\'ajout de quelques fonctionnalités en Javascript.',
+      img: Project5,
+      url:"https://fabrice-huet.github.io/Souplade/",
     },
     {
       id: 6,
-      name: 'Projet6 à définir',
+      name: 'Corte',
       desc:
-        'Application utilisant l\'API Openfood, elle est, à l\'origine un exercice d\'intégration d\'API, proposé dans le cadre de ma formation à la Wild Code School. Cet exercice a pour mérite de mettre en valeur deux savoir-faire important : passer des informations au travers d\'une URL et de gérer l\'aspect asynchorne d\'un fetch. ',
-      img: Project3,
-      url:"https://jefferson-guegan.github.io/openfood/",
+        'Projet réalisé par une équipe de 3 développeurs, il s\'agit d\'un site vitreine pour l\'agglomération de Bordeaux Métropole. Le site a été développé en HTML/CSS avec quelques fonctionnalités en Javascript dans le cadre d\'un projet pour la Wild Code School. ',
+      img: Project6,
+      url:"https://maximekirch.github.io/Corte/",
     },
   ];
   
