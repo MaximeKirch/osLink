@@ -1072,6 +1072,7 @@ animation: fade 1s ease-in-out;
   background: #020202; 
 }
 
+
 .modal-wrapper {
   overflow: auto;
   background-color: rgba(175,164,206,0.1);
@@ -1086,6 +1087,12 @@ animation: fade 1s ease-in-out;
   flex-direction: column;
   z-index:1;
 } 
+
+@media screen and (max-width: 640px) {
+  .modal-wrapper{
+    width: 80% !important;
+  }
+}
  
 .h2Modal-wrapper {
   text-align: center;
