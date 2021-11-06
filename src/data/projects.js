@@ -16,7 +16,7 @@ const projects = [
     },
     {
       id: 2,
-      name: "OsLink",
+      name: "MeeTonDev'",
       desc:
         'Projet réalisé par une équipe de 3 développeurs dans le cadre de la Wild Code School. Il s\agit d\'une plateforme de mise en relation de développeurs à la recherche de projet OpenSource à développer avec des associations ayant des besoins de développement. Le projet est en cours de développement, le lien amène sur le repo Github.',
       img: Project2,
@@ -52,7 +52,7 @@ const projects = [
       desc:
         'Projet réalisé par une équipe de 3 développeurs, il s\'agit d\'un site vitreine pour l\'agglomération de Bordeaux Métropole. Le site a été développé en HTML/CSS avec quelques fonctionnalités en Javascript dans le cadre d\'un projet pour la Wild Code School. ',
       img: Project6,
-      url:"https://github.com/MaximeKirch/Corte",
+      url:"https://maximekirch.github.io/Corte/",
     },
   ];
   
