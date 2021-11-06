@@ -88,7 +88,7 @@ function GithubTrends() {
             </div>
         <div className="splitHasard">
             <h2>L'actu Open-source sur Twitter</h2>
-        <p>Vous trouverez ci-dessous notre fil de tweet consacré aux projets open-source</p>
+        <p>Vous trouverez ci-dessous notre fil de tweet consacré aux projets open-source</p><br/><br/>
             <Twitter/>
             </div>
         </div>
