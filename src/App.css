@@ -712,6 +712,11 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+.splitHasard p{
+  text-align: justify;
 }
   
 .cardContainer {
