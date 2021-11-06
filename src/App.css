@@ -712,6 +712,7 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   
 }
 
@@ -1134,7 +1135,7 @@ animation: fade 1s ease-in-out;
   box-shadow: 1px 1px 25px 10px rgba(245,223,77, 0.4);
 }
 
-.btnModal:before {
+/* .btnModal:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1148,7 +1149,7 @@ animation: fade 1s ease-in-out;
     transparent
   );
   transition: all 650ms;
-}
+} */
 
 .btnModal:hover:before {
   left: 100%;
