@@ -1454,12 +1454,12 @@ z-index: -10;
 
 /* 16. Partners Component*/
 
-.partnerContainer{
+/* .partnerContainer{
   display: flex;
   justify-content: center;
 
   
-}
+} */
 
 
 
@@ -1468,8 +1468,8 @@ z-index: -10;
   border-radius: 25px;
   border: 2px solid var(--illuminating);
   margin: 2rem 2%;
-  padding: 1rem;
-
+   width: 64.5%;
+  margin-left: 17.5%;
 
 }
 
