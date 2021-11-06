@@ -1,19 +1,34 @@
 import React from 'react'
-import logo from '../assets/logo192.png'
+import logo from '../assets/connection.png'
+import ProjectButton2 from './ProjectButton2'
 import '../App.css'
+import { NavLink } from 'react-router-dom'
+
+
+
 
 function Nav() {
+
+    
     return(
-        <div className='Nav'>
-        <div className="navMenu">
-            <img id="logo" src={logo} alt='navLogo' />
+        <>
+
+        <div className='navBar'>
+
+            <NavLink className="navMenu" exact to = "/osLink">
+            
+                <img id="logo" src={logo} alt='navLogo' />
+                <h1 id='title'><a className="a1Nav" href="#">Mee<span id="T">T</span>onDev '</a></h1>
+                 
+            </NavLink>
+        
+             
+            
+        <ProjectButton2 />
+        
         </div>
 
-        <div classname="submit">
-            <button id="submitBtn">Submit project</button>
-
-        </div>
-        </div>
+        </>
     )
 }
 

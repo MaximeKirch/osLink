@@ -1,0 +1,11 @@
+.light {
+    
+    background-color: #FFF; /*couleur arrière plan*/
+    color: var(--ultimate-Gray); /*couleur texte*/
+  }
+  
+  .dark {
+    
+    background-color: #000; /*couleur arrière plan*/
+    color: var(--ultimate-Gray) /*couleur texte*/
+  }

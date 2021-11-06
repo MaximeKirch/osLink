@@ -1,11 +1,95 @@
 DATE 
 	- Tâche (temps en heures)
-	
----------------------------------------------------
+ **
+--------------------------------------------------
+18/08/2021
+
+- Fenêtre modale (style non-terminé) (1h)
+- Réorganisation Navigation (1h)
+- Module Search (3h30)
+- Filtres sur Search Module (1h30)
+- Retouches CSS mineures (1h)
+
+Total : 8h 
+Cumul : 34.2h
+
+--------------------------------------------------
+18/08/2021
+
+- FAQ Component(2h)
+
+	Total  : 2h
+	Cumul: 26.2h
+
+
+
+--------------------------------------------------
+13/08/2021
+
+- Modifs mineures CSS (0.5h)
+- Submit Project component (1h)
+	Total : 1.5h
+	Cumul : 24.2h
+
+
+--------------------------------------------------
+12/08/2021
+
+- GithubTrends Component(3h)
+
+	Total  : 3h
+	Cumul: 22.7h
+--------------------------------------------------
+11/08/2021
+
+-Services component(1h)
+-Testimonials component(1.5h)
+-Fix bugs & merge (0.2h)
+
+Total : 2.7h
+Cumul : 19.7h
+
+--------------------------------------------------
+10/08/2021
+- Identité visuelle (1h)
+- Flux Twitter (0.5h)
+- Services component (2h)
+- Création Footer et Composant nousDev (2.5h)
+- Recherche code couleur (0.3h)
+
+Total heures : 6.3
+Cumul heures : 17	
+
+
+--------------------------------------------------
+10/08/2021
+- Meeting
+
+Total heures : 1x3=3
+Cumul heures : 10.7
+
+
+--------------------------------------------------
+09/08/2021
+
+- Création du composant ContactForm + CSS du formulaire + tests (2.5h)
+
+Total heures : 2.5
+Cumul heures :7.7
+
+--------------------------------------------------
+
 08/08/2021
 
-	- Composant Nav (0.5h)
-	- Fichier CSS global (0.1h)
+	- Composants Hero Banner + Body (1h)
+
+	- Composant Nav (1h)
+
+	- Init CSS file (0.2h)
+
+	Total heures : 2.2
+	Cumul heures : 5.2
+
 
 
 ---------------------------------------------------
@@ -15,3 +99,8 @@ DATE
 	- Conception du Wireframe(1h)
 	
 	- Etude UI/UX(2h)
+<<<<<<< HEAD
+
+	Total heures : 1x3=3
+=======
+>>>>>>> main
