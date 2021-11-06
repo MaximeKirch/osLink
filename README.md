@@ -1,3 +1,7 @@
+ Projet dans le cadre de la formation Développeur Web de la Wild Code School.
+ 
+  "Réalisez une application web grâce à React qui aura comme fonction le contact vers une API."
+
 # osLink
 
 !!!!!! Please use Dev branch to develop & suggest modifications before merge !!!!!!

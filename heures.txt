@@ -99,5 +99,8 @@ Cumul heures :7.7
 	- Conception du Wireframe(1h)
 	
 	- Etude UI/UX(2h)
+<<<<<<< HEAD
 
 	Total heures : 1x3=3
+=======
+>>>>>>> main
