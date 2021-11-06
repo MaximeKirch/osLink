@@ -1480,6 +1480,12 @@ z-index: -10;
 
 }
 
+@media screen and (max-width: 640px) {
+  .partnerBody{
+    display: none;
+  }
+}
+
 #partnerTitle {
   text-align: center;
   color: var(--lavender);
