@@ -40,7 +40,7 @@ const ProjectSlider = () => {
                 >
 
                     {projects.map((project, index) => {
-                        if (index >= 6) return;
+                        if (index >= 6);
                         return (
                             <SwiperSlide key={project.id}>
 
