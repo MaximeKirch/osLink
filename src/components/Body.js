@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css'
 import Service from './Services'
 import NousDev from './NousDev'
-import GithubTrends from './GithubTrends'
+//import GithubTrends from './GithubTrends'
 import Partners from './Partners';
 
 
@@ -14,7 +14,7 @@ function Body() {
 
             <NousDev />
 
-            <GithubTrends />
+            {/* <GithubTrends /> */}
 
             
 
